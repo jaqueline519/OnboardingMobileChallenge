@@ -8,12 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var inteiro:Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    func setupUI() {
+     // sasaas
+        print(inteiro!)
+    }
 }
-
