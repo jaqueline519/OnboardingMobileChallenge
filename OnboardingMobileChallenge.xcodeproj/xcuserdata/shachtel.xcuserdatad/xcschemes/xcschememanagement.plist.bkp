@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OnboardingMobileChallenge.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+<<<<<<< HEAD
+			<integer>4</integer>
+=======
+			<integer>3</integer>
+>>>>>>> e86711fb72b79ca5aa2db982481da1eb1cf3aace
+		</dict>
+	</dict>
+</dict>
+</plist>
