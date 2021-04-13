@@ -139,12 +139,13 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				FCF5A2F92626074F00529973 /* Model */,
+				FCF5A2FC2626076A00529973 /* View */,
+				FCF5A2FA2626075C00529973 /* ViewModel */,
+				FCF5A2FB2626076400529973 /* Controller */,
+				FCF5A2FD2626078300529973 /* Service */,
 				EAA49C1C2625E12600B3E735 /* AppDelegate.swift */,
 				EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */,
-				EAA49C202625E12600B3E735 /* ViewController.swift */,
-				EAA49C222625E12600B3E735 /* Main.storyboard */,
-				EAA49C252625E12900B3E735 /* Assets.xcassets */,
-				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
 				EAA49C2A2625E12900B3E735 /* Info.plist */,
 			);
 			path = OnboardingMobileChallenge;
@@ -166,6 +167,53 @@
 				EAA49C402625E12900B3E735 /* Info.plist */,
 			);
 			path = OnboardingMobileChallengeUITests;
+			sourceTree = "<group>";
+		};
+		FCF5A2F92626074F00529973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FCF5A2FA2626075C00529973 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCF5A2FB2626076400529973 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C202625E12600B3E735 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCF5A2FC2626076A00529973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FCF5A2FE262607C200529973 /* Components */,
+				EAA49C252625E12900B3E735 /* Assets.xcassets */,
+				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
+				EAA49C222625E12600B3E735 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCF5A2FD2626078300529973 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCF5A2FE262607C200529973 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
