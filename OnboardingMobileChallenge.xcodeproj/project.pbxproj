@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5669EDD8D43E8ED60627F6 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D4632DCE32B8D04C75469A /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */; };
+		107F3A8F2B8A8B53342F1C92 /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BACF325ADB7E0E4FCB1FEF /* Pods_OnboardingMobileChallengeTests.framework */; };
+		166525DE37A0D9E836BA5A90 /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A7FAE00E01F2FDDE772C5F /* Pods_OnboardingMobileChallenge.framework */; };
+		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
+		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
+		EAA49C212625E12600B3E735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* ViewController.swift */; };
+		EAA49C242625E12600B3E735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C222625E12600B3E735 /* Main.storyboard */; };
+		EAA49C262625E12900B3E735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C252625E12900B3E735 /* Assets.xcassets */; };
+		EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */; };
+		EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */; };
+		EAA49C3F2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA49C302625E12900B3E735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA49C112625E12600B3E735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA49C182625E12600B3E735;
+			remoteInfo = OnboardingMobileChallenge;
+		};
+		EAA49C3B2625E12900B3E735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA49C112625E12600B3E735 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA49C182625E12600B3E735;
+			remoteInfo = OnboardingMobileChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE502EA4341E45104F1D219 /* Pods-OnboardingMobileChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D663405456464BEFB86D5D6 /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		38D4632DCE32B8D04C75469A /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BACF325ADB7E0E4FCB1FEF /* Pods_OnboardingMobileChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C1BD61B38301AE6809F9FB /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66A7FAE00E01F2FDDE772C5F /* Pods_OnboardingMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6915D5D2BB1763D3B31FAC80 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8518FC26273BA518C1B6F327 /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A60CDBF4F58D95634B3F9B0D /* Pods-OnboardingMobileChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA49C1C2625E12600B3E735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAA49C202625E12600B3E735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA49C232625E12600B3E735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA49C252625E12900B3E735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA49C282625E12900B3E735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA49C2A2625E12900B3E735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA49C2F2625E12900B3E735 /* OnboardingMobileChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingMobileChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMobileChallengeTests.swift; sourceTree = "<group>"; };
+		EAA49C352625E12900B3E735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA49C3A2625E12900B3E735 /* OnboardingMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMobileChallengeUITests.swift; sourceTree = "<group>"; };
+		EAA49C402625E12900B3E735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA49C162625E12600B3E735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166525DE37A0D9E836BA5A90 /* Pods_OnboardingMobileChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C2C2625E12900B3E735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				107F3A8F2B8A8B53342F1C92 /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C372625E12900B3E735 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5669EDD8D43E8ED60627F6 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308167B462311ED2FF6F8DBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8518FC26273BA518C1B6F327 /* Pods-OnboardingMobileChallenge.debug.xcconfig */,
+				2D663405456464BEFB86D5D6 /* Pods-OnboardingMobileChallenge.release.xcconfig */,
+				61C1BD61B38301AE6809F9FB /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */,
+				6915D5D2BB1763D3B31FAC80 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */,
+				0EE502EA4341E45104F1D219 /* Pods-OnboardingMobileChallengeTests.debug.xcconfig */,
+				A60CDBF4F58D95634B3F9B0D /* Pods-OnboardingMobileChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2F6466CCEBDB19A73BE6523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66A7FAE00E01F2FDDE772C5F /* Pods_OnboardingMobileChallenge.framework */,
+				38D4632DCE32B8D04C75469A /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */,
+				52BACF325ADB7E0E4FCB1FEF /* Pods_OnboardingMobileChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA49C102625E12600B3E735 = {
+			isa = PBXGroup;
+			children = (
+				EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */,
+				EAA49C322625E12900B3E735 /* OnboardingMobileChallengeTests */,
+				EAA49C3D2625E12900B3E735 /* OnboardingMobileChallengeUITests */,
+				EAA49C1A2625E12600B3E735 /* Products */,
+				308167B462311ED2FF6F8DBE /* Pods */,
+				C2F6466CCEBDB19A73BE6523 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA49C1A2625E12600B3E735 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */,
+				EAA49C2F2625E12900B3E735 /* OnboardingMobileChallengeTests.xctest */,
+				EAA49C3A2625E12900B3E735 /* OnboardingMobileChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C1C2625E12600B3E735 /* AppDelegate.swift */,
+				EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */,
+				EAA49C202625E12600B3E735 /* ViewController.swift */,
+				EAA49C222625E12600B3E735 /* Main.storyboard */,
+				EAA49C252625E12900B3E735 /* Assets.xcassets */,
+				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
+				EAA49C2A2625E12900B3E735 /* Info.plist */,
+			);
+			path = OnboardingMobileChallenge;
+			sourceTree = "<group>";
+		};
+		EAA49C322625E12900B3E735 /* OnboardingMobileChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */,
+				EAA49C352625E12900B3E735 /* Info.plist */,
+			);
+			path = OnboardingMobileChallengeTests;
+			sourceTree = "<group>";
+		};
+		EAA49C3D2625E12900B3E735 /* OnboardingMobileChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */,
+				EAA49C402625E12900B3E735 /* Info.plist */,
+			);
+			path = OnboardingMobileChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA49C182625E12600B3E735 /* OnboardingMobileChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA49C432625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallenge" */;
+			buildPhases = (
+				405E4C625365E6C7D45BD536 /* [CP] Check Pods Manifest.lock */,
+				EAA49C152625E12600B3E735 /* Sources */,
+				EAA49C162625E12600B3E735 /* Frameworks */,
+				EAA49C172625E12600B3E735 /* Resources */,
+				11FC3D6254C9B256CF3FD965 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OnboardingMobileChallenge;
+			productName = OnboardingMobileChallenge;
+			productReference = EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAA49C2E2625E12900B3E735 /* OnboardingMobileChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA49C462625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallengeTests" */;
+			buildPhases = (
+				49C5E31F6DAC1DE1ACEA7C16 /* [CP] Check Pods Manifest.lock */,
+				EAA49C2B2625E12900B3E735 /* Sources */,
+				EAA49C2C2625E12900B3E735 /* Frameworks */,
+				EAA49C2D2625E12900B3E735 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA49C312625E12900B3E735 /* PBXTargetDependency */,
+			);
+			name = OnboardingMobileChallengeTests;
+			productName = OnboardingMobileChallengeTests;
+			productReference = EAA49C2F2625E12900B3E735 /* OnboardingMobileChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAA49C392625E12900B3E735 /* OnboardingMobileChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA49C492625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallengeUITests" */;
+			buildPhases = (
+				8CF7E4D9DE10E3C2B1424736 /* [CP] Check Pods Manifest.lock */,
+				EAA49C362625E12900B3E735 /* Sources */,
+				EAA49C372625E12900B3E735 /* Frameworks */,
+				EAA49C382625E12900B3E735 /* Resources */,
+				8ACAD1ECA2787D45B6429482 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA49C3C2625E12900B3E735 /* PBXTargetDependency */,
+			);
+			name = OnboardingMobileChallengeUITests;
+			productName = OnboardingMobileChallengeUITests;
+			productReference = EAA49C3A2625E12900B3E735 /* OnboardingMobileChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA49C112625E12600B3E735 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EAA49C182625E12600B3E735 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EAA49C2E2625E12900B3E735 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAA49C182625E12600B3E735;
+					};
+					EAA49C392625E12900B3E735 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EAA49C182625E12600B3E735;
+					};
+				};
+			};
+			buildConfigurationList = EAA49C142625E12600B3E735 /* Build configuration list for PBXProject "OnboardingMobileChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA49C102625E12600B3E735;
+			productRefGroup = EAA49C1A2625E12600B3E735 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA49C182625E12600B3E735 /* OnboardingMobileChallenge */,
+				EAA49C2E2625E12900B3E735 /* OnboardingMobileChallengeTests */,
+				EAA49C392625E12900B3E735 /* OnboardingMobileChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA49C172625E12600B3E735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */,
+				EAA49C262625E12900B3E735 /* Assets.xcassets in Resources */,
+				EAA49C242625E12600B3E735 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C2D2625E12900B3E735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C382625E12900B3E735 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FC3D6254C9B256CF3FD965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		405E4C625365E6C7D45BD536 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingMobileChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C5E31F6DAC1DE1ACEA7C16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingMobileChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ACAD1ECA2787D45B6429482 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CF7E4D9DE10E3C2B1424736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA49C152625E12600B3E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA49C212625E12600B3E735 /* ViewController.swift in Sources */,
+				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
+				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C2B2625E12900B3E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA49C362625E12900B3E735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA49C3F2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA49C312625E12900B3E735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA49C182625E12600B3E735 /* OnboardingMobileChallenge */;
+			targetProxy = EAA49C302625E12900B3E735 /* PBXContainerItemProxy */;
+		};
+		EAA49C3C2625E12900B3E735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA49C182625E12600B3E735 /* OnboardingMobileChallenge */;
+			targetProxy = EAA49C3B2625E12900B3E735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAA49C222625E12600B3E735 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA49C232625E12600B3E735 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA49C282625E12900B3E735 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA49C412625E12900B3E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAA49C422625E12900B3E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA49C442625E12900B3E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8518FC26273BA518C1B6F327 /* Pods-OnboardingMobileChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA49C452625E12900B3E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D663405456464BEFB86D5D6 /* Pods-OnboardingMobileChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA49C472625E12900B3E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE502EA4341E45104F1D219 /* Pods-OnboardingMobileChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnboardingMobileChallenge.app/OnboardingMobileChallenge";
+			};
+			name = Debug;
+		};
+		EAA49C482625E12900B3E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60CDBF4F58D95634B3F9B0D /* Pods-OnboardingMobileChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnboardingMobileChallenge.app/OnboardingMobileChallenge";
+			};
+			name = Release;
+		};
+		EAA49C4A2625E12900B3E735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C1BD61B38301AE6809F9FB /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnboardingMobileChallenge;
+			};
+			name = Debug;
+		};
+		EAA49C4B2625E12900B3E735 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6915D5D2BB1763D3B31FAC80 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OnboardingMobileChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.OnboardingMobileChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OnboardingMobileChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA49C142625E12600B3E735 /* Build configuration list for PBXProject "OnboardingMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA49C412625E12900B3E735 /* Debug */,
+				EAA49C422625E12900B3E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA49C432625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA49C442625E12900B3E735 /* Debug */,
+				EAA49C452625E12900B3E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA49C462625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA49C472625E12900B3E735 /* Debug */,
+				EAA49C482625E12900B3E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA49C492625E12900B3E735 /* Build configuration list for PBXNativeTarget "OnboardingMobileChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA49C4A2625E12900B3E735 /* Debug */,
+				EAA49C4B2625E12900B3E735 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA49C112625E12600B3E735 /* Project object */;
+}

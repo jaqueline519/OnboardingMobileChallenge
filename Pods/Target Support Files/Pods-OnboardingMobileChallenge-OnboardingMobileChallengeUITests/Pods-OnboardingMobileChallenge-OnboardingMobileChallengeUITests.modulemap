@@ -1,0 +1,6 @@
+framework module Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests {
+  umbrella header "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
