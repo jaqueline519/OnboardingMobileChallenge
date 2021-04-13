@@ -7,7 +7,11 @@
 		<key>OnboardingMobileChallenge.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< HEAD
 			<integer>4</integer>
+=======
+			<integer>3</integer>
+>>>>>>> e86711fb72b79ca5aa2db982481da1eb1cf3aace
 		</dict>
 	</dict>
 </dict>
