@@ -23,6 +23,9 @@
 		EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */; };
 		EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */; };
 		EAA49C3F2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */; };
+		EACA371E2627C9280096BA98 /* Erros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA371D2627C9280096BA98 /* Erros.swift */; };
+		EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37222627C9390096BA98 /* ListaMoedas.swift */; };
+		EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37272627C9470096BA98 /* MoedaInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		EAA49C3A2625E12900B3E735 /* OnboardingMobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingMobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMobileChallengeUITests.swift; sourceTree = "<group>"; };
 		EAA49C402625E12900B3E735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EACA371D2627C9280096BA98 /* Erros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Erros.swift; sourceTree = "<group>"; };
+		EACA37222627C9390096BA98 /* ListaMoedas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaMoedas.swift; sourceTree = "<group>"; };
+		EACA37272627C9470096BA98 /* MoedaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedaInfo.swift; sourceTree = "<group>"; };
 		FD34CFB5788A5C962EBF74AB /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +123,8 @@
 		890E02992626193C00BD54EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EACA37222627C9390096BA98 /* ListaMoedas.swift */,
+				EACA37272627C9470096BA98 /* MoedaInfo.swift */,
 				890E02B7262622EE00BD54EE /* StructClass.swift */,
 			);
 			path = Model;
@@ -182,6 +190,7 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EACA371B2627C9280096BA98 /* Erros */,
 				890E02992626193C00BD54EE /* Model */,
 				FCF5A2FC2626076A00529973 /* View */,
 				890E029A2626194900BD54EE /* ViewModel */,
@@ -210,6 +219,22 @@
 				EAA49C402625E12900B3E735 /* Info.plist */,
 			);
 			path = OnboardingMobileChallengeUITests;
+			sourceTree = "<group>";
+		};
+		EACA371B2627C9280096BA98 /* Erros */ = {
+			isa = PBXGroup;
+			children = (
+				EACA371C2627C9280096BA98 /* Model */,
+			);
+			path = Erros;
+			sourceTree = "<group>";
+		};
+		EACA371C2627C9280096BA98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EACA371D2627C9280096BA98 /* Erros.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FCF5A2FB2626076400529973 /* Controller */ = {
@@ -490,7 +515,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA49C212625E12600B3E735 /* ViewController.swift in Sources */,
+				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
+				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
+				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
 				890E02B3262622BD00BD54EE /* ServiceExample.swift in Sources */,
 				890E02A626261D8A00BD54EE /* CelulaCotacao.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
