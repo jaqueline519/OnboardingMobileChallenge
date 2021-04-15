@@ -12,7 +12,6 @@
 		890E029E26261D3100BD54EE /* CelulaCotacao.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890E029D26261D3100BD54EE /* CelulaCotacao.xib */; };
 		890E02A626261D8A00BD54EE /* CelulaCotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02A526261D8A00BD54EE /* CelulaCotacao.swift */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
-		890E02B3262622BD00BD54EE /* ServiceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02B2262622BD00BD54EE /* ServiceExample.swift */; };
 		890E02B8262622EE00BD54EE /* StructClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02B7262622EE00BD54EE /* StructClass.swift */; };
 		BC6E710BC5952B654367D9FB /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
@@ -26,6 +25,8 @@
 		EACA371E2627C9280096BA98 /* Erros.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA371D2627C9280096BA98 /* Erros.swift */; };
 		EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37222627C9390096BA98 /* ListaMoedas.swift */; };
 		EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37272627C9470096BA98 /* MoedaInfo.swift */; };
+		EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377426280EFC0096BA98 /* MoedasAPI.swift */; };
+		EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377926280F030096BA98 /* InfoMoedaAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,6 @@
 		890E029D26261D3100BD54EE /* CelulaCotacao.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaCotacao.xib; sourceTree = "<group>"; };
 		890E02A526261D8A00BD54EE /* CelulaCotacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaCotacao.swift; sourceTree = "<group>"; };
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
-		890E02B2262622BD00BD54EE /* ServiceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceExample.swift; sourceTree = "<group>"; };
 		890E02B7262622EE00BD54EE /* StructClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClass.swift; sourceTree = "<group>"; };
 		8F568ECA73B53C213BE8D209 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CBD2B2B77712811620CEEF4B /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +76,8 @@
 		EACA371D2627C9280096BA98 /* Erros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Erros.swift; sourceTree = "<group>"; };
 		EACA37222627C9390096BA98 /* ListaMoedas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaMoedas.swift; sourceTree = "<group>"; };
 		EACA37272627C9470096BA98 /* MoedaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedaInfo.swift; sourceTree = "<group>"; };
+		EACA377426280EFC0096BA98 /* MoedasAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedasAPI.swift; sourceTree = "<group>"; };
+		EACA377926280F030096BA98 /* InfoMoedaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMoedaAPI.swift; sourceTree = "<group>"; };
 		FD34CFB5788A5C962EBF74AB /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,7 +143,8 @@
 		890E029B2626196000BD54EE /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				890E02B2262622BD00BD54EE /* ServiceExample.swift */,
+				EACA377426280EFC0096BA98 /* MoedasAPI.swift */,
+				EACA377926280F030096BA98 /* InfoMoedaAPI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -516,12 +519,13 @@
 			files = (
 				EAA49C212625E12600B3E735 /* ViewController.swift in Sources */,
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
+				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
 				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
-				890E02B3262622BD00BD54EE /* ServiceExample.swift in Sources */,
 				890E02A626261D8A00BD54EE /* CelulaCotacao.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
+				EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */,
 				890E02AB2626229B00BD54EE /* FileExample.swift in Sources */,
 				890E02B8262622EE00BD54EE /* StructClass.swift in Sources */,
 			);

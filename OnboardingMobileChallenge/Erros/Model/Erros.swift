@@ -19,7 +19,7 @@ enum ErrosEnum : String {
 
 class Erros: NSObject {
     
-    let erros = [400: ErrosEnum.badRequest,
+    let erros = [            400: ErrosEnum.badRequest,
                              401: ErrosEnum.unauthorized,
                              403: ErrosEnum.forBidden,
                              429: ErrosEnum.tooManyRequests,
