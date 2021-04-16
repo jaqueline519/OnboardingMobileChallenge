@@ -125,7 +125,6 @@
 		890E02992626193C00BD54EE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EACA37222627C9390096BA98 /* ListaMoedas.swift */,
 				EACA37272627C9470096BA98 /* MoedaInfo.swift */,
 				890E02B7262622EE00BD54EE /* StructClass.swift */,
 			);
@@ -193,6 +192,7 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EAEFFE0F2629CBD100926C16 /* TelaPrincipal */,
 				EACA371B2627C9280096BA98 /* Erros */,
 				890E02992626193C00BD54EE /* Model */,
 				FCF5A2FC2626076A00529973 /* View */,
@@ -236,6 +236,22 @@
 			isa = PBXGroup;
 			children = (
 				EACA371D2627C9280096BA98 /* Erros.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAEFFE0F2629CBD100926C16 /* TelaPrincipal */ = {
+			isa = PBXGroup;
+			children = (
+				EAEFFE102629CBE000926C16 /* Model */,
+			);
+			path = TelaPrincipal;
+			sourceTree = "<group>";
+		};
+		EAEFFE102629CBE000926C16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EACA37222627C9390096BA98 /* ListaMoedas.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
