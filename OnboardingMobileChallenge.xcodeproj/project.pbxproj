@@ -10,7 +10,6 @@
 		09FC567AA54EDAFD2153E0A8 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C57C60A9CA69239E4BF7ED1 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */; };
 		4CE2BEFA2CD2C400EA06FF3B /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D0B4AF877BC02DB6663E9 /* Pods_OnboardingMobileChallenge.framework */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
-		890E02B8262622EE00BD54EE /* StructClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02B7262622EE00BD54EE /* StructClass.swift */; };
 		BC6E710BC5952B654367D9FB /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
@@ -26,6 +25,7 @@
 		EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377426280EFC0096BA98 /* MoedasAPI.swift */; };
 		EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377926280F030096BA98 /* InfoMoedaAPI.swift */; };
 		EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */; };
+		EAEFFEA02629FEAA00926C16 /* DadosChamadaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEFFE9F2629FEAA00926C16 /* DadosChamadaApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +53,6 @@
 		6164EEBD5AFAED73B6E0D776 /* Pods-OnboardingMobileChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
-		890E02B7262622EE00BD54EE /* StructClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClass.swift; sourceTree = "<group>"; };
 		8F568ECA73B53C213BE8D209 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CBD2B2B77712811620CEEF4B /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +75,7 @@
 		EACA377426280EFC0096BA98 /* MoedasAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedasAPI.swift; sourceTree = "<group>"; };
 		EACA377926280F030096BA98 /* InfoMoedaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMoedaAPI.swift; sourceTree = "<group>"; };
 		EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
+		EAEFFE9F2629FEAA00926C16 /* DadosChamadaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosChamadaApi.swift; sourceTree = "<group>"; };
 		FD34CFB5788A5C962EBF74AB /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				EACA37272627C9470096BA98 /* MoedaInfo.swift */,
-				890E02B7262622EE00BD54EE /* StructClass.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,8 +139,6 @@
 		890E029B2626196000BD54EE /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				EACA377426280EFC0096BA98 /* MoedasAPI.swift */,
-				EACA377926280F030096BA98 /* InfoMoedaAPI.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -181,9 +178,9 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EAEFFE772629F44300926C16 /* MoedaDetalhe */,
 				EAEFFE0F2629CBD100926C16 /* TelaPrincipal */,
-				EACA371B2627C9280096BA98 /* Erros */,
-				890E02992626193C00BD54EE /* Model */,
+				EACA371B2627C9280096BA98 /* Commons */,
 				FCF5A2FC2626076A00529973 /* View */,
 				890E029A2626194900BD54EE /* ViewModel */,
 				890E029B2626196000BD54EE /* Service */,
@@ -212,18 +209,19 @@
 			path = OnboardingMobileChallengeUITests;
 			sourceTree = "<group>";
 		};
-		EACA371B2627C9280096BA98 /* Erros */ = {
+		EACA371B2627C9280096BA98 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
 				EACA371C2627C9280096BA98 /* Model */,
 			);
-			path = Erros;
+			path = Commons;
 			sourceTree = "<group>";
 		};
 		EACA371C2627C9280096BA98 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				EACA371D2627C9280096BA98 /* Erros.swift */,
+				EAEFFE9F2629FEAA00926C16 /* DadosChamadaApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +229,7 @@
 		EAEFFE0F2629CBD100926C16 /* TelaPrincipal */ = {
 			isa = PBXGroup;
 			children = (
+				EAEFFE782629F45A00926C16 /* Service */,
 				FCF5A2FB2626076400529973 /* Controller */,
 				EAEFFE4D2629E42F00926C16 /* View */,
 				EAEFFE102629CBE000926C16 /* Model */,
@@ -255,6 +254,55 @@
 				EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		EAEFFE772629F44300926C16 /* MoedaDetalhe */ = {
+			isa = PBXGroup;
+			children = (
+				EAEFFE7C2629F48400926C16 /* Service */,
+				EAEFFE7B2629F47D00926C16 /* Controller */,
+				EAEFFE7A2629F47400926C16 /* ViewModel */,
+				EAEFFE792629F46B00926C16 /* View */,
+				890E02992626193C00BD54EE /* Model */,
+			);
+			path = MoedaDetalhe;
+			sourceTree = "<group>";
+		};
+		EAEFFE782629F45A00926C16 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EACA377426280EFC0096BA98 /* MoedasAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		EAEFFE792629F46B00926C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAEFFE7A2629F47400926C16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EAEFFE7B2629F47D00926C16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAEFFE7C2629F48400926C16 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EACA377926280F030096BA98 /* InfoMoedaAPI.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		FCF5A2FB2626076400529973 /* Controller */ = {
@@ -531,6 +579,7 @@
 			files = (
 				EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */,
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
+				EAEFFEA02629FEAA00926C16 /* DadosChamadaApi.swift in Sources */,
 				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
 				EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */,
@@ -539,7 +588,6 @@
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
 				EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */,
 				890E02AB2626229B00BD54EE /* FileExample.swift in Sources */,
-				890E02B8262622EE00BD54EE /* StructClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

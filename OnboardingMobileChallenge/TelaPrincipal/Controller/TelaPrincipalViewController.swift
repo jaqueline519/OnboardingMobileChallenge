@@ -12,6 +12,7 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
     @IBOutlet weak var listaMoedasTableView: UITableView!
     
     var api = MoedasAPI()
+//      InfoMoedaAPI()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,15 +8,6 @@ import Foundation
 import UIKit
 import Alamofire
 
-struct ApiKey {
-    static let urlListaMoedas = "https://rest-sandbox.coinapi.io/v1/assets/"
-    static let headers: HTTPHeaders = [
-        "X-CoinAPI-Key": "FC08A1F5-7823-40C8-BC82-B4BE39E12796",
-        "Accept": "application/json"
-    ]
-}
-
-
 public class MoedasAPI: NSObject {
     
     var listaMoedas: [ListaMoeda] = []
@@ -24,7 +15,7 @@ public class MoedasAPI: NSObject {
     
     public func requestMoedas(){
         
-        AF.request(ApiKey.urlListaMoedas, method: .get, headers: ApiKey.headers).response { [self]
+        AF.request(DadosChamadaApi.urlListaMoedas, method: .get, headers: DadosChamadaApi.headers).response { [self]
             (responseData) in
             guard let data = responseData.data else {return}
             print(data)
