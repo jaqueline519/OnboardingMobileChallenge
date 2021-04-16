@@ -7,14 +7,14 @@
 
 import UIKit
 
-public struct infoCelula {
-    
-    public static var sigla = ""
-    public var tipo = ""
-    public var cotacao = ""
-    public var img = UIImage()
-    public var favoritado = ""
-}
+//public struct infoCelula {
+//
+//    public static var sigla = ""
+//    public var tipo = ""
+//    public var cotacao = ""
+//    public var img = UIImage()
+//    public var favoritado = ""
+//}
 
 class CelulaTableViewCell: UITableViewCell {
 

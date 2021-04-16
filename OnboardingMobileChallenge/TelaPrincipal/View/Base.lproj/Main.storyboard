@@ -116,7 +116,6 @@
                             </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="pMM-JH-ehr" firstAttribute="top" secondItem="92q-g2-vnJ" secondAttribute="top" constant="520" id="1el-z1-Co7"/>
                             <constraint firstItem="92q-g2-vnJ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4aI-0A-9lo"/>
