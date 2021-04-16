@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		09FC567AA54EDAFD2153E0A8 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C57C60A9CA69239E4BF7ED1 /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */; };
 		4CE2BEFA2CD2C400EA06FF3B /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 454D0B4AF877BC02DB6663E9 /* Pods_OnboardingMobileChallenge.framework */; };
-		890E029E26261D3100BD54EE /* CelulaCotacao.xib in Resources */ = {isa = PBXBuildFile; fileRef = 890E029D26261D3100BD54EE /* CelulaCotacao.xib */; };
-		890E02A626261D8A00BD54EE /* CelulaCotacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02A526261D8A00BD54EE /* CelulaCotacao.swift */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
 		890E02B8262622EE00BD54EE /* StructClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02B7262622EE00BD54EE /* StructClass.swift */; };
 		BC6E710BC5952B654367D9FB /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */; };
+		EA77C9AF262955C6005330D2 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */; };
+		EA77C9B0262955C6005330D2 /* CelulaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
-		EAA49C212625E12600B3E735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* ViewController.swift */; };
+		EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */; };
 		EAA49C242625E12600B3E735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C222625E12600B3E735 /* Main.storyboard */; };
 		EAA49C262625E12900B3E735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C252625E12900B3E735 /* Assets.xcassets */; };
 		EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */; };
@@ -53,16 +53,16 @@
 		5B29DC4060F668CE981BAB36 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6164EEBD5AFAED73B6E0D776 /* Pods-OnboardingMobileChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		890E029D26261D3100BD54EE /* CelulaCotacao.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaCotacao.xib; sourceTree = "<group>"; };
-		890E02A526261D8A00BD54EE /* CelulaCotacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaCotacao.swift; sourceTree = "<group>"; };
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
 		890E02B7262622EE00BD54EE /* StructClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClass.swift; sourceTree = "<group>"; };
 		8F568ECA73B53C213BE8D209 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CBD2B2B77712811620CEEF4B /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
+		EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaTableViewCell.xib; sourceTree = "<group>"; };
 		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA49C1C2625E12600B3E735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EAA49C202625E12600B3E735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
 		EAA49C232625E12600B3E735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAA49C252625E12900B3E735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA49C282625E12900B3E735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		890E029C2626198500BD54EE /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				890E029D26261D3100BD54EE /* CelulaCotacao.xib */,
-				890E02A526261D8A00BD54EE /* CelulaCotacao.swift */,
+				EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */,
+				EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 		FCF5A2FB2626076400529973 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EAA49C202625E12600B3E735 /* ViewController.swift */,
+				EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -368,9 +368,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA77C9B0262955C6005330D2 /* CelulaTableViewCell.xib in Resources */,
 				EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */,
 				EAA49C262625E12900B3E735 /* Assets.xcassets in Resources */,
-				890E029E26261D3100BD54EE /* CelulaCotacao.xib in Resources */,
 				EAA49C242625E12600B3E735 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,13 +517,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA49C212625E12600B3E735 /* ViewController.swift in Sources */,
+				EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */,
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
 				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
 				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
-				890E02A626261D8A00BD54EE /* CelulaCotacao.swift in Sources */,
+				EA77C9AF262955C6005330D2 /* CelulaTableViewCell.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
 				EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */,
 				890E02AB2626229B00BD54EE /* FileExample.swift in Sources */,

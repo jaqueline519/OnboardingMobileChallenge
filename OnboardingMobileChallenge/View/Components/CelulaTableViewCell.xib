@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CelulaTableViewCell" rowHeight="98" id="KGk-i7-Jjw" customClass="CelulaTableViewCell" customModule="OnboardingMobileChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NXX-ce-L4t">
+                        <rect key="frame" x="0.0" y="2" width="70" height="70"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NomeMoeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy2-L8-Vme">
+                        <rect key="frame" x="78" y="8" width="197" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Dmh-Df-v2o"/>
+                            <constraint firstAttribute="width" constant="197" id="d80-KF-hrp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SiglaMoeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hg-Lu-gf6">
+                        <rect key="frame" x="78" y="37" width="88" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="cgi-mQ-irR"/>
+                            <constraint firstAttribute="width" constant="88" id="h7e-cY-dys"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rds-A7-nsc">
+                        <rect key="frame" x="248" y="8" width="56" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="G3U-KU-9WI"/>
+                            <constraint firstAttribute="width" constant="56" id="MQZ-F0-vKj"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cotacao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNG-l4-osI">
+                        <rect key="frame" x="194" y="43" width="110" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="7k3-sZ-rOv"/>
+                            <constraint firstAttribute="width" constant="110" id="Hzx-C6-v42"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Hg-Lu-gf6" firstAttribute="leading" secondItem="Dy2-L8-Vme" secondAttribute="leading" id="0Wi-Jb-8K1"/>
+                    <constraint firstItem="cNG-l4-osI" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="1xL-fX-gis"/>
+                    <constraint firstItem="cNG-l4-osI" firstAttribute="trailing" secondItem="rds-A7-nsc" secondAttribute="trailing" id="52m-Zc-SeW"/>
+                    <constraint firstItem="cNG-l4-osI" firstAttribute="top" secondItem="rds-A7-nsc" secondAttribute="bottom" constant="4" id="Mkb-9t-mq3"/>
+                    <constraint firstItem="cNG-l4-osI" firstAttribute="leading" secondItem="4Hg-Lu-gf6" secondAttribute="trailing" constant="28" id="S7b-1y-JoQ"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="4Hg-Lu-gf6" secondAttribute="bottom" constant="6" id="lJh-SP-sdF"/>
+                    <constraint firstItem="4Hg-Lu-gf6" firstAttribute="leading" secondItem="NXX-ce-L4t" secondAttribute="trailing" constant="8" id="nIa-hd-H3A"/>
+                    <constraint firstItem="cNG-l4-osI" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="yTf-kx-9TH"/>
+                    <constraint firstItem="4Hg-Lu-gf6" firstAttribute="top" secondItem="Dy2-L8-Vme" secondAttribute="bottom" constant="8" id="zTV-ri-1Ld"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <constraints>
+                <constraint firstItem="NXX-ce-L4t" firstAttribute="top" secondItem="njF-e1-oar" secondAttribute="top" constant="2" id="DeA-Qf-PRF"/>
+                <constraint firstItem="NXX-ce-L4t" firstAttribute="leading" secondItem="njF-e1-oar" secondAttribute="leading" id="b3i-lM-hHd"/>
+                <constraint firstItem="njF-e1-oar" firstAttribute="bottom" secondItem="NXX-ce-L4t" secondAttribute="bottom" constant="3" id="e3H-Ae-2zM"/>
+            </constraints>
+            <connections>
+                <outlet property="cotacaoMoeda" destination="cNG-l4-osI" id="80R-JG-uoM"/>
+                <outlet property="icon" destination="NXX-ce-L4t" id="eLo-b3-uNp"/>
+                <outlet property="imagemFavorito" destination="rds-A7-nsc" id="wVx-xD-J0f"/>
+                <outlet property="labelMoeda" destination="Dy2-L8-Vme" id="IPH-Cb-bGw"/>
+                <outlet property="labelSigla" destination="4Hg-Lu-gf6" id="4X6-aH-RTt"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="107.47767857142857"/>
+        </tableViewCell>
+    </objects>
+</document>
