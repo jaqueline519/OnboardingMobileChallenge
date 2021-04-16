@@ -12,8 +12,6 @@
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
 		890E02B8262622EE00BD54EE /* StructClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02B7262622EE00BD54EE /* StructClass.swift */; };
 		BC6E710BC5952B654367D9FB /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645FE86844CB2B5A58DF977C /* Pods_OnboardingMobileChallengeTests.framework */; };
-		EA77C9AF262955C6005330D2 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */; };
-		EA77C9B0262955C6005330D2 /* CelulaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
 		EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */; };
@@ -27,6 +25,7 @@
 		EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37272627C9470096BA98 /* MoedaInfo.swift */; };
 		EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377426280EFC0096BA98 /* MoedasAPI.swift */; };
 		EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377926280F030096BA98 /* InfoMoedaAPI.swift */; };
+		EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +56,6 @@
 		890E02B7262622EE00BD54EE /* StructClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClass.swift; sourceTree = "<group>"; };
 		8F568ECA73B53C213BE8D209 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CBD2B2B77712811620CEEF4B /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
-		EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
-		EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelulaTableViewCell.xib; sourceTree = "<group>"; };
 		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA49C1C2625E12600B3E735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +75,7 @@
 		EACA37272627C9470096BA98 /* MoedaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedaInfo.swift; sourceTree = "<group>"; };
 		EACA377426280EFC0096BA98 /* MoedasAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedasAPI.swift; sourceTree = "<group>"; };
 		EACA377926280F030096BA98 /* InfoMoedaAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMoedaAPI.swift; sourceTree = "<group>"; };
+		EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
 		FD34CFB5788A5C962EBF74AB /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,15 +146,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		890E029C2626198500BD54EE /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				EA77C9AD262955C6005330D2 /* CelulaTableViewCell.swift */,
-				EA77C9AE262955C6005330D2 /* CelulaTableViewCell.xib */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		C8AA84DBB3B8BE174992E123 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,7 +186,6 @@
 				890E02992626193C00BD54EE /* Model */,
 				FCF5A2FC2626076A00529973 /* View */,
 				890E029A2626194900BD54EE /* ViewModel */,
-				FCF5A2FB2626076400529973 /* Controller */,
 				890E029B2626196000BD54EE /* Service */,
 				EAA49C1C2625E12600B3E735 /* AppDelegate.swift */,
 				EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */,
@@ -243,6 +231,8 @@
 		EAEFFE0F2629CBD100926C16 /* TelaPrincipal */ = {
 			isa = PBXGroup;
 			children = (
+				FCF5A2FB2626076400529973 /* Controller */,
+				EAEFFE4D2629E42F00926C16 /* View */,
 				EAEFFE102629CBE000926C16 /* Model */,
 			);
 			path = TelaPrincipal;
@@ -256,6 +246,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EAEFFE4D2629E42F00926C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAA49C252625E12900B3E735 /* Assets.xcassets */,
+				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
+				EAA49C222625E12600B3E735 /* Main.storyboard */,
+				EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FCF5A2FB2626076400529973 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,10 +268,6 @@
 		FCF5A2FC2626076A00529973 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				890E029C2626198500BD54EE /* Components */,
-				EAA49C252625E12900B3E735 /* Assets.xcassets */,
-				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
-				EAA49C222625E12600B3E735 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -384,7 +381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA77C9B0262955C6005330D2 /* CelulaTableViewCell.xib in Resources */,
 				EAA49C292625E12900B3E735 /* LaunchScreen.storyboard in Resources */,
 				EAA49C262625E12900B3E735 /* Assets.xcassets in Resources */,
 				EAA49C242625E12600B3E735 /* Main.storyboard in Resources */,
@@ -537,9 +533,9 @@
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
 				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
+				EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
 				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
-				EA77C9AF262955C6005330D2 /* CelulaTableViewCell.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
 				EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */,
 				890E02AB2626229B00BD54EE /* FileExample.swift in Sources */,

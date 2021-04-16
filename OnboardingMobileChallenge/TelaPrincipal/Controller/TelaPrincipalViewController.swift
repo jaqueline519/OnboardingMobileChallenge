@@ -16,8 +16,6 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
     override func viewDidLoad() {
         super.viewDidLoad()
         self.api.requestMoedas()
-        
-        self.listaMoedasTableView.register(UINib(nibName: "CelulaTableViewCell", bundle: nil), forCellReuseIdentifier: "CelulaTableViewCell")
         self.listaMoedasTableView.delegate = self
         self.listaMoedasTableView.dataSource = self
         
@@ -28,12 +26,9 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CelulaTableViewCell", for: indexPath) as? CelulaTableViewCell
         
-        let cell: CelulaTableViewCell? = tableView.dequeueReusableCell(withIdentifier: "CelulaTableViewCell", for: indexPath) as? CelulaTableViewCell
-        cell?.icon.image = UIImage(named: "")
-        cell?.labelMoeda.text = "Moeda"
-        
-        return cell ?? UITableViewCell()
+        return cell ?? CelulaTableViewCell()
     }
 
 

@@ -52,6 +52,21 @@
                                 <rect key="frame" x="0.0" y="167" width="414" height="569"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CelulaTableViewCell" rowHeight="93.333333333333343" id="B5S-Lt-AZQ" customClass="CelulaTableViewCell" customModule="OnboardingMobileChallenge" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="93.333335876464844"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B5S-Lt-AZQ" id="GLG-FH-AiG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="93.333335876464844"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="414" id="F7l-pu-Dv5"/>
+                                        </constraints>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pMM-JH-ehr">
                                 <rect key="frame" x="0.0" y="687" width="414" height="49"/>
@@ -61,9 +76,6 @@
                                     <tabBarItem systemItem="more" id="AU1-Ot-CRB"/>
                                 </items>
                             </tabBar>
-
- 
-
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
