@@ -7,9 +7,36 @@
 
 import UIKit
 
+public struct infoCelula {
+    
+    public static var sigla = ""
+    public var tipo = ""
+    public var cotacao = ""
+    public var img = UIImage()
+    public var favoritado = ""
+}
+
 class CelulaTableViewCell: UITableViewCell {
 
-
+    @IBOutlet weak var labelMoeda: UILabel!
+    
+    @IBOutlet weak var labelTipoMoeda: UILabel!
+    
+    @IBOutlet weak var labelCotacaoMoeda: UILabel!
+    
+    @IBOutlet weak var imgMoeda: UIImageView!
+    
+    @IBOutlet weak var imgFavoritado: UIImageView!
+    
+    public func populaCelula(dados: MoedaInfoElement) {
+        
+        self.labelMoeda.text = dados.name
+        self.labelTipoMoeda.text = dados.assetID
+        self.labelCotacaoMoeda.text = "\(dados.priceUsd)"
+        self.imgMoeda.image = UIImage()
+        self.imgFavoritado.image = UIImage()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
