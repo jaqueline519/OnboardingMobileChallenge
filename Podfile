@@ -20,5 +20,7 @@ target 'OnboardingMobileChallenge' do
 pod 'Alamofire', '~> 5.2'
 pod 'AlamofireImage', '~> 4.1'
 pod 'SwiftLint'
+pod 'ModuloDetalhes', :git=> 'https://github.com/jonatttan/ModuloDetalhes.git'
+pod 'ModuloCommons', :git=> 'https://github.com/jonatttan/ModuloCommons.git'
 
 end

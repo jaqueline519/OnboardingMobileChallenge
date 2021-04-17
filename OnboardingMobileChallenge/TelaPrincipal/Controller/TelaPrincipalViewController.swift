@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ModuloCommons
 
 class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -13,6 +14,7 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
     
     @IBOutlet weak var listaMoedasTableView: UITableView!
     
+    @IBOutlet weak var viewTopo: UIView!
     var api = MoedasAPI()
 //      InfoMoedaAPI()
     
@@ -22,13 +24,14 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
         self.listaMoedasTableView.delegate = self
         self.listaMoedasTableView.dataSource = self
         dadosTeste.append(MoedaInfoElement(assetID: "BTC", name: "cripto", typeIsCrypto: 1, dataStart: "2021", dataEnd: "2022", dataQuoteStart: "2000", dataQuoteEnd: "2001", dataOrderbookStart: "2010", dataOrderbookEnd: "2011", dataTradeStart: "1990", dataTradeEnd: "1991", dataSymbolsCount: 2, volume1HrsUsd: 12.0, volume1DayUsd: 10.0, volume1MthUsd: 15.0, priceUsd: 5.0, idIcon: "icon"))
+         viewTopo.backgroundColor = UIColor.corSecundaria()
         
         dadosTeste.append(MoedaInfoElement(assetID: "ETH", name: "cripto2", typeIsCrypto: 2, dataStart: "2021", dataEnd: "2022", dataQuoteStart: "2000", dataQuoteEnd: "2001", dataOrderbookStart: "2010", dataOrderbookEnd: "2011", dataTradeStart: "1990", dataTradeEnd: "1991", dataSymbolsCount: 2, volume1HrsUsd: 12.0, volume1DayUsd: 10.0, volume1MthUsd: 15.0, priceUsd: 10.0, idIcon: "icon"))
         
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dadosTeste.count
+        return 2
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

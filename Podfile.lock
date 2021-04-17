@@ -1,25 +1,71 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Alamofire (5.4.1)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
+  - ModuloCommons (0.1.0)
+  - ModuloDetalhes (0.1.0):
+    - AFNetworking (~> 2.3)
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - AlamofireImage (~> 4.1)
+  - ModuloCommons (from `https://github.com/jonatttan/ModuloCommons.git`)
+  - ModuloDetalhes (from `https://github.com/jonatttan/ModuloDetalhes.git`)
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Alamofire
     - AlamofireImage
     - SwiftLint
 
+EXTERNAL SOURCES:
+  ModuloCommons:
+    :git: https://github.com/jonatttan/ModuloCommons.git
+  ModuloDetalhes:
+    :git: https://github.com/jonatttan/ModuloDetalhes.git
+
+CHECKOUT OPTIONS:
+  ModuloCommons:
+    :commit: 1d0f1a04e1330eb94d996b769d6a188f0fe817cd
+    :git: https://github.com/jonatttan/ModuloCommons.git
+  ModuloDetalhes:
+    :commit: c67ca0e1b1101f5c67574e474672e14483ce2f90
+    :git: https://github.com/jonatttan/ModuloDetalhes.git
+
 SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  ModuloCommons: 86274db107bd62d69b71455d2efb19b5ede4f878
+  ModuloDetalhes: 8a7f396947d608887c61becffee6e683dab5eb00
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: d2a9cd09fc17507d36f9c0e4ef641488aab73c7a
+PODFILE CHECKSUM: c82c0cc7fd7080ceae2befe96410c5b87809d35c
 
 COCOAPODS: 1.10.1

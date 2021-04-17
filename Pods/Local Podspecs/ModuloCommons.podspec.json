@@ -1,0 +1,22 @@
+{
+  "name": "ModuloCommons",
+  "version": "0.1.0",
+  "summary": "A short description of ModuloCommons.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jonatttan/ModuloCommons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jonatttan": "jonattan.sousa@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jonatttan/ModuloCommons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ModuloCommons/Classes/**/*"
+}
