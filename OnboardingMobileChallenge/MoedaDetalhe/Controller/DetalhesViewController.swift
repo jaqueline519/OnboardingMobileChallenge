@@ -19,10 +19,6 @@ class DetalhesViewController: UIViewController {
         tela.setupUI(self, "BTC")
         stack.addArrangedSubview(tela)
     }
-    
-    
-
- 
 }
 extension DetalhesViewController: CoinDetalheDelegate {
     func favoritar(_ id: String) {

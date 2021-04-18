@@ -20,10 +20,12 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Alamofire (5.4.1)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
-  - ModuloCommons (0.1.0)
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - ModuloCommons (0.1.0):
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
   - ModuloDetalhes (0.1.0):
     - AFNetworking (~> 2.3)
     - Alamofire (~> 5.2)
@@ -52,7 +54,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   ModuloCommons:
-    :commit: 1d0f1a04e1330eb94d996b769d6a188f0fe817cd
+    :commit: db80d4ce92ae747d4facd3998d4329421dc3398c
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
     :commit: c67ca0e1b1101f5c67574e474672e14483ce2f90
@@ -60,9 +62,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
-  ModuloCommons: 86274db107bd62d69b71455d2efb19b5ede4f878
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  ModuloCommons: fe33464dc430261bc595a5666b18c8d6e5b4d2bd
   ModuloDetalhes: 8a7f396947d608887c61becffee6e683dab5eb00
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 

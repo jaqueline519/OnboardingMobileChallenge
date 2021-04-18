@@ -19,16 +19,12 @@ import UIKit
 class CelulaTableViewCell: UITableViewCell {
 
     @IBOutlet weak var labelMoeda: UILabel!
-    
     @IBOutlet weak var labelTipoMoeda: UILabel!
-    
     @IBOutlet weak var labelCotacaoMoeda: UILabel!
-    
     @IBOutlet weak var imgMoeda: UIImageView!
-    
     @IBOutlet weak var imgFavoritado: UIImageView!
     
-    public func populaCelula(dados: MoedaInfoElement) {
+    public func populaCelula(_ dados: MoedaInfoElement) {
         
         self.labelMoeda.text = dados.name
         self.labelTipoMoeda.text = dados.assetID

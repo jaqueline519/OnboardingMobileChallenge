@@ -12,9 +12,10 @@ public class MoedasAPI: NSObject {
     
     var listaMoedas: [ListaMoeda] = []
     var erros = Erros()
-    
-    public func requestMoedas(){
-        
+  
+
+    public func requestMoedas(queue: DispatchQueue = .main, completionHandler: @escaping([ListaMoeda]) -> Void) {
+
         AF.request(DadosChamadaApi.urlListaMoedas, method: .get, headers: DadosChamadaApi.headers).response { [self]
             (responseData) in
             guard let data = responseData.data else {return}
@@ -22,7 +23,8 @@ public class MoedasAPI: NSObject {
             do {
                 let retorno = try JSONDecoder().decode([ListaMoeda].self, from: data)
                 self.listaMoedas = retorno
-                print(retorno)
+                completionHandler(retorno)
+//                print(retorno)
             } catch{
                 guard let statusCode = responseData.response?.statusCode else {return}
                 self.erros.sobrescreverMensagemDeErro(statusCode: statusCode)

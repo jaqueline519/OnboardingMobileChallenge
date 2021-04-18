@@ -1,16 +1,20 @@
+//
+//  MoedaInfo.swift
+//  FBSnapshotTestCase
+//
+//  Created by Jaqueline Bittencourt Santos on 14/04/21.
+//
 import Foundation
 
-// MARK: - ListaMoeda
-public struct ListaMoeda: Codable {
-    let assetID: String
-    let name: String?
+// MARK: - MoedaInfoElement
+public struct MoedaInfoElement: Codable {
+    let assetID, name: String
     let typeIsCrypto: Int
-    let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: String?
-    let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: String?
+    let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: String
+    let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: String
     let dataSymbolsCount: Int
-    let volume1HrsUsd, volume1DayUsd, volume1MthUsd: Double
-    let priceUsd: Double?
-    let idIcon: String?
+    let volume1HrsUsd, volume1DayUsd, volume1MthUsd, priceUsd: Double
+    let idIcon: String
 
     enum CodingKeys: String, CodingKey {
         case assetID = "asset_id"
@@ -33,4 +37,4 @@ public struct ListaMoeda: Codable {
     }
 }
 
-typealias ListaMoedas = [ListaMoeda]
+typealias MoedaInfo = [MoedaInfoElement]

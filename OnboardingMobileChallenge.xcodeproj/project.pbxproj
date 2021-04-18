@@ -11,6 +11,8 @@
 		48C46BCD811CB0969B3EA882 /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9302DBD04CF4C7130383CEA1 /* Pods_OnboardingMobileChallengeTests.framework */; };
 		8343351CBE71515779A21E36 /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C85950B4C690DDB0A08F5 /* Pods_OnboardingMobileChallenge.framework */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
+		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
+		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
 		EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */; };
@@ -52,6 +54,8 @@
 		37C76B4965FA5948AC438A13 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
 		891EF7BD8D4E7A9DF227DE4E /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
+		89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITableViewCell.swift; sourceTree = "<group>"; };
 		9302DBD04CF4C7130383CEA1 /* Pods_OnboardingMobileChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0D5D72D9877A583D80356F /* Pods-OnboardingMobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		DB565C603D9F840329247A28 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +159,15 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		89D92B3B262BEDB4009C579E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */,
+				89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		EAA49C102625E12600B3E735 = {
 			isa = PBXGroup;
 			children = (
@@ -250,10 +263,11 @@
 		EAEFFE4D2629E42F00926C16 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				89D92B3B262BEDB4009C579E /* Home */,
 				EAA49C252625E12900B3E735 /* Assets.xcassets */,
-				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
-				EAA49C222625E12600B3E735 /* Main.storyboard */,
 				EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */,
+				EAA49C222625E12600B3E735 /* Main.storyboard */,
+				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -581,6 +595,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */,
+				89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */,
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
 				EAEFFEA02629FEAA00926C16 /* DadosChamadaApi.swift in Sources */,
 				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
@@ -589,6 +604,7 @@
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
 				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
 				EAEA5416262B7E3200B777C0 /* DetalhesViewController.swift in Sources */,
+				89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,
 				EACA377A26280F030096BA98 /* InfoMoedaAPI.swift in Sources */,
 				890E02AB2626229B00BD54EE /* FileExample.swift in Sources */,
