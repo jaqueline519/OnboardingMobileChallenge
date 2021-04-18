@@ -10,19 +10,20 @@ import ModuloDetalhes
 
 class DetalhesViewController: UIViewController {
     @IBOutlet weak var stack: UIStackView!
-    
+    var sigla: String?
     let tela = CoinDetalheUIView.fromNib()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        tela.setupUI(self, "BTC")
+        if let siglaMoeda = sigla {
+            self.tela.setupUI(self, siglaMoeda)
+        }
         stack.addArrangedSubview(tela)
     }
 }
 extension DetalhesViewController: CoinDetalheDelegate {
     func favoritar(_ id: String) {
-        //Criar ação
+        // Criar ação
     }
     
     

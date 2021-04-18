@@ -25,7 +25,6 @@ class HomeUITableViewCell: UITableViewCell {
         self.lbTipoMoeda.text = dados.assetID
         self.imgFavorito.image = UIImage()
         if let preco = dados.priceUsd {
-//            self.lbCotacaoMoeda.text = String(format: "$ %.2f", preco)
             self.lbCotacaoMoeda.text = preco.formatadorDolar(valor: preco)
         } else {
             self.lbCotacaoMoeda.text = "0"
@@ -45,10 +44,6 @@ class HomeUITableViewCell: UITableViewCell {
         formatter.numberStyle = .currency
         formatter.currencyCode = "USD"
         guard let valorFormatado = formatter.string(from: valorNS) else { return "0"}
-//        formatter.numberStyle = .decimal
-//        formatter.minimumFractionDigits = 2
-//        formatter.maximumFractionDigits = 3
-//        guard let valorFormatado = formatter.string(for: valor) else { return "0"}
         return valorFormatado
     }
     

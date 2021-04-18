@@ -21,25 +21,9 @@ class TelaPrincipalViewController: UIViewController, UITableViewDelegate, UITabl
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.api.requestMoedas()
         self.listaMoedasTableView.delegate = self
         self.listaMoedasTableView.dataSource = self
-        dadosTeste.append(MoedaInfoElement(assetID: "BTC", name: "cripto", typeIsCrypto: 1, dataStart: "2021", dataEnd: "2022", dataQuoteStart: "2000", dataQuoteEnd: "2001", dataOrderbookStart: "2010", dataOrderbookEnd: "2011", dataTradeStart: "1990", dataTradeEnd: "1991", dataSymbolsCount: 2, volume1HrsUsd: 12.0, volume1DayUsd: 10.0, volume1MthUsd: 15.0, priceUsd: 5.0, idIcon: "icon"))
-//         viewTopo.backgroundColor = UIColor.corSecundaria()
-        
-        dadosTeste.append(MoedaInfoElement(assetID: "ETH", name: "cripto2", typeIsCrypto: 2, dataStart: "2021", dataEnd: "2022", dataQuoteStart: "2000", dataQuoteEnd: "2001", dataOrderbookStart: "2010", dataOrderbookEnd: "2011", dataTradeStart: "1990", dataTradeEnd: "1991", dataSymbolsCount: 2, volume1HrsUsd: 12.0, volume1DayUsd: 10.0, volume1MthUsd: 15.0, priceUsd: 10.0, idIcon: "icon"))
-        let carinhaTeste = MoedaInfoElement(assetID: "ETH", name: "cripto2", typeIsCrypto: 2, dataStart: "2021", dataEnd: "2022", dataQuoteStart: "2000", dataQuoteEnd: "2001", dataOrderbookStart: "2010", dataOrderbookEnd: "2011", dataTradeStart: "1990", dataTradeEnd: "1991", dataSymbolsCount: 2, volume1HrsUsd: 12.0, volume1DayUsd: 10.0, volume1MthUsd: 15.0, priceUsd: 10.0, idIcon: "icon")
-        
-        while self.contador > 1 {
-            dadosTeste.append(carinhaTeste)
-            self.contador = (self.contador - 1)
-        }
     }
-    
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 1
-//    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

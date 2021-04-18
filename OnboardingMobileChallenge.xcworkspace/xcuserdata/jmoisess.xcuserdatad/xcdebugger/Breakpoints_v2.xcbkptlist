@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E198F23A-5767-48E6-BC49-0D1FCE7AD71C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF8BAA89-D46F-48D8-A37B-AF1689B9B8D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "setupUI(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF8BAA89-D46F-48D8-A37B-AF1689B9B8D9 - 578fa2cc38d504b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ModuloDetalhes.CoinDetalheUIView.setupUI(ModuloDetalhes.CoinDetalheDelegate, Swift.String) -&gt; Swift.String"
+                  moduleName = "ModuloDetalhes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "BF8BAA89-D46F-48D8-A37B-AF1689B9B8D9 - 2147095c8adbad29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;ModuloDetalhes.MoedaInfoElement&gt;) -&gt; () in ModuloDetalhes.CoinDetalheUIView.setupUI(ModuloDetalhes.CoinDetalheDelegate, Swift.String) -&gt; Swift.String"
+                  moduleName = "ModuloDetalhes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C34246B-20C5-4E88-A50B-56FFE2666D05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3969888D-461A-472B-A109-A7861D9C4BB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DetalhesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - 952ddc1763a9b95b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.sigla.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - 9a8ab927ed3fe94f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.sigla.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - 96d463ac5811e8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.sigla.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - d3703bd6047535fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.sigla.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - c09abfd0c32f636"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; OnboardingMobileChallenge.DetalhesViewController"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "331">
+               </Location>
+               <Location
+                  uuid = "3969888D-461A-472B-A109-A7861D9C4BB0 - 4d5777e4f7c500d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnboardingMobileChallenge.DetalhesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;OnboardingMobileChallenge.DetalhesViewController&gt;"
+                  moduleName = "OnboardingMobileChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmoisess/Documents/Avaliacao2/OnboardingMobileChallenge/OnboardingMobileChallenge/MoedaDetalhe/Controller/DetalhesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "251">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "479D2730-7132-41F6-B065-E529E15BC52A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "setValues(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB84DB3F-FAD4-48C8-8ADD-7734F696033C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "setupUI(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6859921-DE30-427D-916F-3545E1838E9C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/ModuloDetalhes/ModuloDetalhes/Classes/CoinDetalheUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "setValues(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

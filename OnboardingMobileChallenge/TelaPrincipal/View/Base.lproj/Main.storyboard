@@ -11,7 +11,7 @@
         <!--Detalhes View Controller-->
         <scene sceneID="nhd-WZ-GdB">
             <objects>
-                <viewController id="T09-sV-f0q" customClass="DetalhesViewController" customModule="OnboardingMobileChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetalhesMoeda" id="T09-sV-f0q" customClass="DetalhesViewController" customModule="OnboardingMobileChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CFi-M1-a3a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7x-vZ-Pog" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1235" y="-20"/>
+            <point key="canvasLocation" x="799" y="787"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="HU8-c9-Q5a">
@@ -48,11 +48,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="ifO-Xq-5ly" kind="relationship" relationship="viewControllers" id="t6t-Gp-I3s"/>
+                        <segue destination="eB8-iA-e0s" kind="relationship" relationship="viewControllers" id="ibI-eS-JBF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cWU-a2-Cqs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1427" y="133"/>
+            <point key="canvasLocation" x="-1554" y="475"/>
         </scene>
         <!--Moedas-->
         <scene sceneID="f25-oW-tTG">
@@ -133,8 +134,46 @@
                     <tabBarItem key="tabBarItem" title="Moedas" selectedImage="dollarsign.square.fill" catalog="system" id="q7S-Ve-01j"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Kr-dD-ZDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="xCf-i2-EQ3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="83"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moeda Digital" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SYx-4l-3ja">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCc-sZ-wP1">
+                            <rect key="frame" x="166" y="52" width="42" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="Iha-Vg-lmn"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
             </objects>
-            <point key="canvasLocation" x="-480" y="133"/>
+            <point key="canvasLocation" x="-480.80000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--Favoritos-->
+        <scene sceneID="Xfe-gQ-CCQ">
+            <objects>
+                <viewController id="eB8-iA-e0s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1mP-bi-VSX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SuG-i7-6mB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favoritos" selectedImage="star" catalog="system" id="bJ7-HK-16F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uqY-0F-1hV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="826"/>
         </scene>
         <!--Tela Principal View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -266,11 +305,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="325" y="-765"/>
+            <point key="canvasLocation" x="-454" y="-837"/>
         </scene>
     </scenes>
     <resources>
         <image name="dollarsign.square.fill" catalog="system" width="128" height="114"/>
+        <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
