@@ -13,6 +13,7 @@
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
 		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
 		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
+		EA17820A262D093B00FCF636 /* FavoritosScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA178209262D093B00FCF636 /* FavoritosScreenViewController.swift */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
 		EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */; };
@@ -61,6 +62,7 @@
 		DB565C603D9F840329247A28 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4C85950B4C690DDB0A08F5 /* Pods_OnboardingMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86C921809CF2F82C8B8AF41 /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		EA178209262D093B00FCF636 /* FavoritosScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosScreenViewController.swift; sourceTree = "<group>"; };
 		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA49C1C2625E12600B3E735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,22 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		EA178201262D081100FCF636 /* Favoritos */ = {
+			isa = PBXGroup;
+			children = (
+				EA178202262D081900FCF636 /* View */,
+			);
+			path = Favoritos;
+			sourceTree = "<group>";
+		};
+		EA178202262D081900FCF636 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA178209262D093B00FCF636 /* FavoritosScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		EAA49C102625E12600B3E735 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +211,7 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				EA178201262D081100FCF636 /* Favoritos */,
 				EAEFFE772629F44300926C16 /* MoedaDetalhe */,
 				EAEFFE0F2629CBD100926C16 /* TelaPrincipal */,
 				EACA371B2627C9280096BA98 /* Commons */,
@@ -603,6 +622,7 @@
 				EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
 				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
+				EA17820A262D093B00FCF636 /* FavoritosScreenViewController.swift in Sources */,
 				EAEA5416262B7E3200B777C0 /* DetalhesViewController.swift in Sources */,
 				89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */,
 				EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */,

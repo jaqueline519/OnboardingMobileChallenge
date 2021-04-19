@@ -23,7 +23,7 @@ class DetalhesViewController: UIViewController {
 }
 extension DetalhesViewController: CoinDetalheDelegate {
     func favoritar(_ id: String) {
-        // Criar ação
+        
     }
     
     

@@ -28,6 +28,9 @@
     ],
     "AlamofireImage": [
       "~> 4.1"
+    ],
+    "ModuloCommons": [
+
     ]
   }
 }

@@ -162,14 +162,28 @@
         <!--Favoritos-->
         <scene sceneID="Xfe-gQ-CCQ">
             <objects>
-                <viewController id="eB8-iA-e0s" sceneMemberID="viewController">
+                <viewController id="eB8-iA-e0s" customClass="FavoritosScreenViewController" customModule="OnboardingMobileChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1mP-bi-VSX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="csn-FJ-3y2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="SuG-i7-6mB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="csn-FJ-3y2" firstAttribute="top" secondItem="SuG-i7-6mB" secondAttribute="top" id="03k-6K-x3t"/>
+                            <constraint firstItem="SuG-i7-6mB" firstAttribute="bottom" secondItem="csn-FJ-3y2" secondAttribute="bottom" id="2ah-8P-F8E"/>
+                            <constraint firstItem="SuG-i7-6mB" firstAttribute="trailing" secondItem="csn-FJ-3y2" secondAttribute="trailing" id="9Gt-8y-Wac"/>
+                            <constraint firstItem="csn-FJ-3y2" firstAttribute="leading" secondItem="SuG-i7-6mB" secondAttribute="leading" id="vy3-au-yjc"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favoritos" selectedImage="star" catalog="system" id="bJ7-HK-16F"/>
+                    <connections>
+                        <outlet property="stackFavoritos" destination="csn-FJ-3y2" id="6po-O8-tMP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uqY-0F-1hV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

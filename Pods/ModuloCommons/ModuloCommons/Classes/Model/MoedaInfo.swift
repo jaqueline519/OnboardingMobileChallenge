@@ -8,13 +8,13 @@ import Foundation
 
 // MARK: - MoedaInfoElement
 public struct MoedaInfoElement: Codable {
-    let assetID, name: String
-    let typeIsCrypto: Int
-    let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: String
-    let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: String
-    let dataSymbolsCount: Int
-    let volume1HrsUsd, volume1DayUsd, volume1MthUsd, priceUsd: Double
-    let idIcon: String
+    public let assetID, name: String
+    public let typeIsCrypto: Int
+    public let dataStart, dataEnd, dataQuoteStart, dataQuoteEnd: String
+    public let dataOrderbookStart, dataOrderbookEnd, dataTradeStart, dataTradeEnd: String
+    public let dataSymbolsCount: Int
+    public let volume1HrsUsd, volume1DayUsd, volume1MthUsd, priceUsd: Double
+    public let idIcon: String
 
     enum CodingKeys: String, CodingKey {
         case assetID = "asset_id"

@@ -178,6 +178,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Favoritos/Favoritos.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloCommons/ModuloCommons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloDetalhes/ModuloDetalhes.framework"
 fi
@@ -185,6 +186,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Favoritos/Favoritos.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloCommons/ModuloCommons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloDetalhes/ModuloDetalhes.framework"
 fi

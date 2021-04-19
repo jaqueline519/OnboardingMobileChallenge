@@ -1,0 +1,6 @@
+framework module Favoritos {
+  umbrella header "Favoritos-umbrella.h"
+
+  export *
+  module * { export * }
+}

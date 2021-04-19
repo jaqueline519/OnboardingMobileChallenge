@@ -20,9 +20,13 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Alamofire (5.4.2)
-  - AlamofireImage (4.2.0):
-    - Alamofire (~> 5.4)
+  - Alamofire (5.4.1)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - Favoritos (0.1.0):
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
+    - ModuloCommons
   - ModuloCommons (0.1.0):
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
@@ -30,11 +34,13 @@ PODS:
     - AFNetworking (~> 2.3)
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
+    - ModuloCommons
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - AlamofireImage (~> 4.1)
+  - Favoritos (from `https://github.com/jaqueline519/Favoritos.git`)
   - ModuloCommons (from `https://github.com/jonatttan/ModuloCommons.git`)
   - ModuloDetalhes (from `https://github.com/jonatttan/ModuloDetalhes.git`)
   - SwiftLint
@@ -47,27 +53,33 @@ SPEC REPOS:
     - SwiftLint
 
 EXTERNAL SOURCES:
+  Favoritos:
+    :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 CHECKOUT OPTIONS:
+  Favoritos:
+    :commit: 4f590225456fe5a16b92de02ddd0be762cc8cca7
+    :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
-    :commit: db80d4ce92ae747d4facd3998d4329421dc3398c
+    :commit: 305fd7264cf8a6c5fe9c6d1b6f2e47b8afd2fe2f
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
-    :commit: c67ca0e1b1101f5c67574e474672e14483ce2f90
+    :commit: e24ded084d5c0e58bc98506e55faf06c1718f90d
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
-  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Favoritos: 226da2f13b5171e46b15c34f0d522b45a6469e29
   ModuloCommons: fe33464dc430261bc595a5666b18c8d6e5b4d2bd
-  ModuloDetalhes: 8a7f396947d608887c61becffee6e683dab5eb00
+  ModuloDetalhes: a62325520120e9f03e682b8dc27b6cb4b334d29b
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: c82c0cc7fd7080ceae2befe96410c5b87809d35c
+PODFILE CHECKSUM: 2d73e7dee88e1493b4bc987cca9de95a826ed915
 
 COCOAPODS: 1.10.1
