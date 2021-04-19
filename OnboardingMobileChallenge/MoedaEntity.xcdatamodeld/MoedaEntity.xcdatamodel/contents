@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="MoedaEntity" representedClassName="MoedaEntity" syncable="YES" codeGenerationType="class"/>
+    <entity name="MoedaEntity" representedClassName="MoedaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="hora" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="icone" optional="YES" attributeType="Transformable"/>
+        <attribute name="mes" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sigla" optional="YES" attributeType="String"/>
+        <attribute name="volumeNegociado" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
     <elements>
-        <element name="MoedaEntity" positionX="-54" positionY="-9" width="128" height="29"/>
+        <element name="MoedaEntity" positionX="-54" positionY="-9" width="128" height="104"/>
     </elements>
 </model>
