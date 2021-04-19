@@ -23,9 +23,8 @@ class DetalhesViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let siglaMoeda = sigla {
-            self.tela.setupUI(self, siglaMoeda)
-        }
+        tela.idMoeda = sigla
+        self.tela.setupUI(self)
         stack.addArrangedSubview(tela)
     }
     

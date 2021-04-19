@@ -29,16 +29,7 @@ public class ViewTop: UIView {
         self.favoritoDelegate = delegate
 
     }
-//    func addTitulo(titulo: String, y: Int, cor: UIColor) {
-//        let tituloLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-//        tituloLabel.text = titulo
-//        tituloLabel.textAlignment = .center
-//        tituloLabel.center = CGPoint(x: 160, y: y)
-//        tituloLabel.backgroundColor = cor
-//        self.addSubview(tituloLabel)
-//        self.translatesAutoresizingMaskIntoConstraints = false
-//    }
-    
+
 }
 
 extension UIView {
@@ -49,4 +40,15 @@ extension UIView {
 
         return nib.instantiate(withOwner: self, options: nil).first as! UIView
     }
+    // Manter este comentário para utilização futuramente
+    //    func addTitulo(titulo: String, y: Int, cor: UIColor) {
+    //        let tituloLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+    //        tituloLabel.text = titulo
+    //        tituloLabel.textAlignment = .center
+    //        tituloLabel.center = CGPoint(x: 160, y: y)
+    //        tituloLabel.backgroundColor = cor
+    //        self.addSubview(tituloLabel)
+    //        self.translatesAutoresizingMaskIntoConstraints = false
+    //    }
+        
 }

@@ -20,9 +20,9 @@ PODS:
   - AFNetworking/UIKit (2.7.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Alamofire (5.4.1)
-  - AlamofireImage (4.1.0):
-    - Alamofire (~> 5.1)
+  - Alamofire (5.4.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - Favoritos (0.1.0):
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
@@ -62,19 +62,19 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Favoritos:
-    :commit: 4f590225456fe5a16b92de02ddd0be762cc8cca7
+    :commit: d3f39ae299dc865d5e6fe296a5ca966da00bb7e8
     :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
     :commit: 305fd7264cf8a6c5fe9c6d1b6f2e47b8afd2fe2f
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
-    :commit: be479d77c24f14b3767fa4570422e442181c32db
+    :commit: d902f0c3ec6346e96142afd74cd10791181d4de8
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 SPEC CHECKSUMS:
   AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
-  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
-  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Favoritos: 226da2f13b5171e46b15c34f0d522b45a6469e29
   ModuloCommons: fe33464dc430261bc595a5666b18c8d6e5b4d2bd
   ModuloDetalhes: a62325520120e9f03e682b8dc27b6cb4b334d29b
