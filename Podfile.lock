@@ -65,10 +65,10 @@ CHECKOUT OPTIONS:
     :commit: d3f39ae299dc865d5e6fe296a5ca966da00bb7e8
     :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
-    :commit: 305fd7264cf8a6c5fe9c6d1b6f2e47b8afd2fe2f
+    :commit: cbc8a2b8577d1a6bdf482f9e87970dca1cecb377
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
-    :commit: d902f0c3ec6346e96142afd74cd10791181d4de8
+    :commit: 763cadd8b18e744351e2b8a6ce76c7fbae72bc57
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 SPEC CHECKSUMS:

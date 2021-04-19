@@ -24,7 +24,6 @@
 		EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */; };
 		EAA49C3F2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */; };
 		EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37222627C9390096BA98 /* ListaMoedas.swift */; };
-		EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA37272627C9470096BA98 /* MoedaInfo.swift */; };
 		EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACA377426280EFC0096BA98 /* MoedasAPI.swift */; };
 		EAEA5416262B7E3200B777C0 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA5415262B7E3200B777C0 /* DetalhesViewController.swift */; };
 		EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */; };
@@ -77,7 +76,6 @@
 		EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMobileChallengeUITests.swift; sourceTree = "<group>"; };
 		EAA49C402625E12900B3E735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EACA37222627C9390096BA98 /* ListaMoedas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaMoedas.swift; sourceTree = "<group>"; };
-		EACA37272627C9470096BA98 /* MoedaInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedaInfo.swift; sourceTree = "<group>"; };
 		EACA377426280EFC0096BA98 /* MoedasAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoedasAPI.swift; sourceTree = "<group>"; };
 		EAEA5415262B7E3200B777C0 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaTableViewCell.swift; sourceTree = "<group>"; };
@@ -132,14 +130,6 @@
 				9302DBD04CF4C7130383CEA1 /* Pods_OnboardingMobileChallengeTests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		890E02992626193C00BD54EE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EACA37272627C9470096BA98 /* MoedaInfo.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		890E029A2626194900BD54EE /* ViewModel */ = {
@@ -266,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				EAEFFE7B2629F47D00926C16 /* Controller */,
-				890E02992626193C00BD54EE /* Model */,
 			);
 			path = MoedaDetalhe;
 			sourceTree = "<group>";
@@ -566,7 +555,6 @@
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
 				EAEFFE582629E9C900926C16 /* CelulaTableViewCell.swift in Sources */,
 				EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */,
-				EACA37282627C9470096BA98 /* MoedaInfo.swift in Sources */,
 				EA17820A262D093B00FCF636 /* FavoritosScreenViewController.swift in Sources */,
 				EAEA5416262B7E3200B777C0 /* DetalhesViewController.swift in Sources */,
 				89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */,

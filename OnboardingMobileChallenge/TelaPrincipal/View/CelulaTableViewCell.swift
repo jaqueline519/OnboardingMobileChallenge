@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ModuloCommons
 
 //public struct infoCelula {
 //
