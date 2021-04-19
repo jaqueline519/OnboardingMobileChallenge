@@ -14,6 +14,7 @@
 		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
 		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
 		EA17820A262D093B00FCF636 /* FavoritosScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA178209262D093B00FCF636 /* FavoritosScreenViewController.swift */; };
+		EA178259262D1AA900FCF636 /* MoedaEntity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA178257262D1AA900FCF636 /* MoedaEntity.xcdatamodeld */; };
 		EAA49C1D2625E12600B3E735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1C2625E12600B3E735 /* AppDelegate.swift */; };
 		EAA49C1F2625E12600B3E735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */; };
 		EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */; };
@@ -63,6 +64,7 @@
 		DC4C85950B4C690DDB0A08F5 /* Pods_OnboardingMobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E86C921809CF2F82C8B8AF41 /* Pods-OnboardingMobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge/Pods-OnboardingMobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		EA178209262D093B00FCF636 /* FavoritosScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosScreenViewController.swift; sourceTree = "<group>"; };
+		EA178258262D1AA900FCF636 /* MoedaEntity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoedaEntity.xcdatamodel; sourceTree = "<group>"; };
 		EAA49C192625E12600B3E735 /* OnboardingMobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardingMobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA49C1C2625E12600B3E735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				EAA49C1C2625E12600B3E735 /* AppDelegate.swift */,
 				EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */,
 				EAA49C2A2625E12900B3E735 /* Info.plist */,
+				EA178257262D1AA900FCF636 /* MoedaEntity.xcdatamodeld */,
 			);
 			path = OnboardingMobileChallenge;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				EAA49C212625E12600B3E735 /* TelaPrincipalViewController.swift in Sources */,
 				89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */,
 				EACA371E2627C9280096BA98 /* Erros.swift in Sources */,
+				EA178259262D1AA900FCF636 /* MoedaEntity.xcdatamodeld in Sources */,
 				EAEFFEA02629FEAA00926C16 /* DadosChamadaApi.swift in Sources */,
 				EACA377526280EFC0096BA98 /* MoedasAPI.swift in Sources */,
 				EACA37232627C9390096BA98 /* ListaMoedas.swift in Sources */,
@@ -960,6 +964,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA178257262D1AA900FCF636 /* MoedaEntity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA178258262D1AA900FCF636 /* MoedaEntity.xcdatamodel */,
+			);
+			currentVersion = EA178258262D1AA900FCF636 /* MoedaEntity.xcdatamodel */;
+			path = MoedaEntity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EAA49C112625E12600B3E735 /* Project object */;
 }

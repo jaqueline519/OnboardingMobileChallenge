@@ -68,7 +68,7 @@ CHECKOUT OPTIONS:
     :commit: 305fd7264cf8a6c5fe9c6d1b6f2e47b8afd2fe2f
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
-    :commit: e24ded084d5c0e58bc98506e55faf06c1718f90d
+    :commit: be479d77c24f14b3767fa4570422e442181c32db
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 SPEC CHECKSUMS:
