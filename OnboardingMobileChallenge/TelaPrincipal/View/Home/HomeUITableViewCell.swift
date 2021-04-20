@@ -19,8 +19,8 @@ class HomeUITableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    func configCell(_ dados: ListaMoeda) {
-        self.imgMoeda.image = UIImage()
+    func configCell(_ dados: ListaMoeda, imagem: UIImage) {
+        self.imgMoeda.image = imagem
         self.lbNomeMoeda.text = dados.name
         self.lbTipoMoeda.text = dados.assetID
         self.imgFavorito.image = UIImage()
