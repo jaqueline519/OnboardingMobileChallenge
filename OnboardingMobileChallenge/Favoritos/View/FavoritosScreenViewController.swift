@@ -15,6 +15,7 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
     @IBOutlet weak var stackFavoritos: UIStackView!
     var gerenciaResultado: NSFetchedResultsController<MoedaEntity>?
     var favoritos: FavoritosViewController?
+    var moedasFavoritadas = ["BTC","ETH","PLN","AUD"]
     var listaMoedasFavoritadas: [String] = []
     var contexto: NSManagedObjectContext {
     let appDelegate = UIApplication.shared.delegate as? AppDelegate
@@ -77,7 +78,7 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
 //    }
     
         func showDetailsAction() {
-            let viewC = FavoritosViewController.fromSB()
+            let viewC = FavoritosViewController.fromSB(self.moedasFavoritadas)
             self.present(viewC, animated: true, completion: nil)
             favoritos?.setupUI(self.listaMoedasFavoritadas)
             
