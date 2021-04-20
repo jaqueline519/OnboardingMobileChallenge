@@ -62,10 +62,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Favoritos:
-    :commit: d3f39ae299dc865d5e6fe296a5ca966da00bb7e8
+    :commit: 0c9ed33d9da82568e4c9aca422afa7bd975a0e99
     :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
-    :commit: cbc8a2b8577d1a6bdf482f9e87970dca1cecb377
+    :commit: 49d5b80713ae95a651fedf4976644c979ef5cb66
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
     :commit: 763cadd8b18e744351e2b8a6ce76c7fbae72bc57

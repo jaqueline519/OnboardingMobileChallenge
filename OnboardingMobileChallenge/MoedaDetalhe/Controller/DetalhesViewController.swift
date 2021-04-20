@@ -11,11 +11,12 @@ import CoreData
 
 class DetalhesViewController: UIViewController {
     
-    var contexto: NSManagedObjectContext{
+    var contexto: NSManagedObjectContext {
 
         let appDelegate = UIApplication.shared.delegate as? AppDelegate
         return (appDelegate?.persistentContainer.viewContext)!
     }
+    var gerenciadorDeResultados: NSFetchedResultsController<MoedaEntity>?
     
     @IBOutlet weak var stack: UIStackView!
     var sigla: String?
@@ -33,7 +34,6 @@ extension DetalhesViewController: CoinDetalheDelegate {
     func favoritar(_ id: String) {
         let moeda = MoedaEntity(context: contexto)
         moeda.sigla = sigla
-        
         do {
         try contexto.save()
             print("--Salvou")

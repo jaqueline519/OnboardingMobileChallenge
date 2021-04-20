@@ -17,5 +17,11 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var nomeMoeda: UILabel?
     @IBOutlet weak var sigla: UILabel?
     @IBOutlet weak var valor: UILabel?
+    
+    func formataCelula(_ moeda: MoedaInfoElement) {
+        self.nomeMoeda?.text = moeda.name
+        self.sigla?.text = moeda.assetID
+        self.valor?.text = "\(moeda.priceUsd)"
+    }
 
 }
