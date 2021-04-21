@@ -25,13 +25,6 @@ class HomeTableTableViewController: UITableViewController {
             
         }
     }
-    
-    public func requestImages(imagem: String) -> URL? {
-        let nameImage = imagem.replacingOccurrences(of: "-", with: "", options: .regularExpression)
-        let url = ("https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_64/\(nameImage).png")
-        guard let urlTratada = URL(string: url) else { return nil }
-        return urlTratada
-    }
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -52,7 +45,7 @@ class HomeTableTableViewController: UITableViewController {
         if let cell = cell {
             let moeda = dadosListaMoedas[indexPath.row]
             guard let stringImagem = moeda.idIcon else { return cell }
-            guard let imagem = requestImages(imagem: stringImagem) else { return cell }
+            guard let imagem = DataImage().requestImageUrl(stringImagem) else { return cell }
             cell.configCell(moeda, imagem)
             return cell
         } else {

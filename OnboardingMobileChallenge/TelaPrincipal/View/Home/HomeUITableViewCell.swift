@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ModuloCommons
 
 class HomeUITableViewCell: UITableViewCell {
     @IBOutlet weak var imgMoeda: UIImageView!
@@ -19,8 +20,8 @@ class HomeUITableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    func configCell(_ dados: ListaMoeda, _ urlImagem: URL) {
-        self.imgMoeda.af.setImage(withURL: urlImagem) // mudar para urlImagem
+    func configCell(_ dados: ListaMoeda, _ nomeImagem: URL) {
+        self.imgMoeda.af.setImage(withURL: nomeImagem) // = DataImage().requestImage(nomeImagem)
         self.lbNomeMoeda.text = dados.name
         self.lbTipoMoeda.text = dados.assetID
         self.imgFavorito.image = UIImage()
