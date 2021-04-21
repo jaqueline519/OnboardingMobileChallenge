@@ -19,32 +19,17 @@ class HomeUITableViewCell: UITableViewCell {
         // Initialization code
     }
 
-    func configCell(_ dados: ListaMoeda, imagem: UIImage) {
-        self.imgMoeda.image = imagem
+    func configCell(_ dados: ListaMoeda, _ urlImagem: URL) {
+        self.imgMoeda.af.setImage(withURL: urlImagem) // mudar para urlImagem
         self.lbNomeMoeda.text = dados.name
         self.lbTipoMoeda.text = dados.assetID
         self.imgFavorito.image = UIImage()
-        if let preco = dados.priceUsd {
+        if let preco = dados.priceUsd { // melhorar
             self.lbCotacaoMoeda.text = preco.formatadorDolar(valor: preco)
         } else {
             self.lbCotacaoMoeda.text = "0"
         }
         self.configCorCell()
-    }
-    
-    private func formatador2(valor: Double) -> String {
-        let valorFormatado = NumberFormatter.localizedString(from: 999999.99, number: .currency)
-        
-        return valorFormatado
-    }
-    
-    private func formatador(valor: Double) -> String {
-        let valorNS = NSNumber(value: valor)
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        formatter.currencyCode = "USD"
-        guard let valorFormatado = formatter.string(from: valorNS) else { return "0"}
-        return valorFormatado
     }
     
     private func configCorCell() {

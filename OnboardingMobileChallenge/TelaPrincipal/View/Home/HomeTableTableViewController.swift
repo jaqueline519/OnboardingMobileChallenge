@@ -26,24 +26,12 @@ class HomeTableTableViewController: UITableViewController {
         }
     }
     
-    func requestImage(imagem: String) -> UIImage {
-        
-        let url = ("https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_16/\(imagem).png")
-        AF.request(url, method: .get, headers: nil).responseImage { (imagemRecebida) in
-            if case .success(let image) = imagemRecebida.result {
-
-                let imageFormated = image.af_imageRounded(withCornerRadius: 10)
-                
-                self.tableView.reloadData()
-            }
-        }
-        
-//        guard let imageUrl = URL(string: url) else {return UIImage()}
-//        guard let imageData = NSData(contentsOf: imageUrl) else {return UIImage()}
-//        guard let image = UIImage(data: imageData as Data) else {return UIImage()}
-        return UIImage()
+    public func requestImages(imagem: String) -> URL? {
+        let nameImage = imagem.replacingOccurrences(of: "-", with: "", options: .regularExpression)
+        let url = ("https://s3.eu-central-1.amazonaws.com/bbxt-static-icons/type-id/png_64/\(nameImage).png")
+        guard let urlTratada = URL(string: url) else { return nil }
+        return urlTratada
     }
-    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -62,8 +50,10 @@ class HomeTableTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell-moeda", for: indexPath) as? HomeUITableViewCell
         if let cell = cell {
-            let imagem = requestImage(imagem: dadosListaMoedas[indexPath.row].assetID)
-            cell.configCell(dadosListaMoedas[indexPath.row], imagem: imagem)
+            let moeda = dadosListaMoedas[indexPath.row]
+            guard let stringImagem = moeda.idIcon else { return cell }
+            guard let imagem = requestImages(imagem: stringImagem) else { return cell }
+            cell.configCell(moeda, imagem)
             return cell
         } else {
             return HomeUITableViewCell()

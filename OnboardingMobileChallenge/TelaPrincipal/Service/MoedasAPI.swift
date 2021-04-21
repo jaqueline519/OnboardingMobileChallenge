@@ -24,7 +24,13 @@ public class MoedasAPI: NSObject {
             do {
                 let retorno = try JSONDecoder().decode([ListaMoeda].self, from: data)
 //                self.listaMoedas = retorno
-                self.listaMoedas = retorno.filter{ $0.typeIsCrypto == 1}
+                let retornoJustCrypto = retorno.filter { $0.typeIsCrypto == 1}
+                let retornoNotNil = retornoJustCrypto.filter { $0.priceUsd != nil }
+                let retornoMaiorQueZero = retornoNotNil.filter { Double($0.priceUsd ?? 0) > 0.0 }
+//                Double($0) ?? .nan
+                let retornoComImagem = retornoMaiorQueZero.filter { $0.idIcon != nil }
+                self.listaMoedas = retornoComImagem
+                print("---\(self.listaMoedas.count)")
 //                self.listaMoedas = listaMoedas.filter{let price = $0.priceUsd ?? 0}
 //                self.listaMoedas = listaMoedas.filter{ $0.priceUsd > 0.0 }
         
