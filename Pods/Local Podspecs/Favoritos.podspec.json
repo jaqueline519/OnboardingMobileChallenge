@@ -1,0 +1,33 @@
+{
+  "name": "Favoritos",
+  "version": "0.1.0",
+  "summary": "A short description of Favoritos.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jaquelinesantos2810@gmail.com/Favoritos",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jaquelinesantos2810@gmail.com": "jaquelinesantos2810@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jaquelinesantos2810@gmail.com/Favoritos.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Favoritos/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.2"
+    ],
+    "AlamofireImage": [
+      "~> 4.1"
+    ],
+    "ModuloCommons": [
+
+    ]
+  }
+}

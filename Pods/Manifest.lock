@@ -1,25 +1,85 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Alamofire (5.4.1)
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
+  - Favoritos (0.1.0):
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
+    - ModuloCommons
+  - ModuloCommons (0.1.0):
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
+  - ModuloDetalhes (0.1.0):
+    - AFNetworking (~> 2.3)
+    - Alamofire (~> 5.2)
+    - AlamofireImage (~> 4.1)
+    - ModuloCommons
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - AlamofireImage (~> 4.1)
+  - Favoritos (from `https://github.com/jaqueline519/Favoritos.git`)
+  - ModuloCommons (from `https://github.com/jonatttan/ModuloCommons.git`)
+  - ModuloDetalhes (from `https://github.com/jonatttan/ModuloDetalhes.git`)
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Alamofire
     - AlamofireImage
     - SwiftLint
 
+EXTERNAL SOURCES:
+  Favoritos:
+    :git: https://github.com/jaqueline519/Favoritos.git
+  ModuloCommons:
+    :git: https://github.com/jonatttan/ModuloCommons.git
+  ModuloDetalhes:
+    :git: https://github.com/jonatttan/ModuloDetalhes.git
+
+CHECKOUT OPTIONS:
+  Favoritos:
+    :commit: 20509058679506c27b02b3b6aff46f695a06dfb6
+    :git: https://github.com/jaqueline519/Favoritos.git
+  ModuloCommons:
+    :commit: 49d5b80713ae95a651fedf4976644c979ef5cb66
+    :git: https://github.com/jonatttan/ModuloCommons.git
+  ModuloDetalhes:
+    :commit: 763cadd8b18e744351e2b8a6ce76c7fbae72bc57
+    :git: https://github.com/jonatttan/ModuloDetalhes.git
+
 SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  Favoritos: 226da2f13b5171e46b15c34f0d522b45a6469e29
+  ModuloCommons: fe33464dc430261bc595a5666b18c8d6e5b4d2bd
+  ModuloDetalhes: a62325520120e9f03e682b8dc27b6cb4b334d29b
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: d2a9cd09fc17507d36f9c0e4ef641488aab73c7a
+PODFILE CHECKSUM: 2d73e7dee88e1493b4bc987cca9de95a826ed915
 
 COCOAPODS: 1.10.1
