@@ -18,14 +18,15 @@ class HomeTableTableViewController: UITableViewController {
     override func viewDidLoad() {
         self.tableView.backgroundColor = UIColor.corSecundaria()
         super.viewDidLoad()
-        let moedas = MoedasAPI()
-        moedas.requestMoedas { (moedasRetornadas) in
+        self.loadData()
+    }
+    private func loadData() {
+        MoedasAPI().requestMoedas { (moedasRetornadas) in
             self.dadosListaMoedas = moedasRetornadas
             self.tableView.reloadData()
         }
     }
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -50,10 +51,8 @@ class HomeTableTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let moedaSelecionada = dadosListaMoedas[indexPath.row]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        DetalhesViewController().sigla = moedaSelecionada.assetID
         let controller = storyboard.instantiateViewController(identifier: "DetalhesMoeda") as DetalhesViewController
         controller.sigla = moedaSelecionada.assetID
-//        controller.sigla = moedaSelecionada.assetID
         present(controller, animated: true, completion: nil)
     }
 }

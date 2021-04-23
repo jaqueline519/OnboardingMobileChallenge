@@ -18,7 +18,7 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
     var moedasFavoritadas = ["BTC", "ETH", "PLN", "AUD"]
     var listaMoedasFavoritadas: [String] = []
     var contexto: NSManagedObjectContext {
-    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+        let appDelegate = UIApplication.shared.delegate as? AppDelegate
         return (appDelegate?.persistentContainer.viewContext)!
     }
     

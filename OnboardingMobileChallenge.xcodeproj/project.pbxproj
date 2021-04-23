@@ -140,6 +140,13 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		89CD23822633339F00F6D3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		89D92B3B262BEDB4009C579E /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,11 +197,12 @@
 		EAA49C1B2625E12600B3E735 /* OnboardingMobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				89CD23822633339F00F6D3A0 /* Model */,
+				FCF5A2FC2626076A00529973 /* View */,
+				890E029A2626194900BD54EE /* ViewModel */,
 				EA178201262D081100FCF636 /* Favoritos */,
 				EAEFFE772629F44300926C16 /* MoedaDetalhe */,
 				EAEFFE0F2629CBD100926C16 /* TelaPrincipal */,
-				FCF5A2FC2626076A00529973 /* View */,
-				890E029A2626194900BD54EE /* ViewModel */,
 				EAA49C1C2625E12600B3E735 /* AppDelegate.swift */,
 				EAA49C1E2625E12600B3E735 /* SceneDelegate.swift */,
 				EAA49C2A2625E12900B3E735 /* Info.plist */,
