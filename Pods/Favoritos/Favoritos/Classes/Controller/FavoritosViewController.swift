@@ -9,10 +9,10 @@ import UIKit
 import Foundation
 import ModuloCommons
 
-public class FavoritosViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+public class FavoritosViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     
     var moedaInfo: [MoedaInfoElement] = []
-    var viewTop: ViewTop?
+//    var viewTop: ViewTop?
     public var moedasFavoritadas = ["BTC","ETH","PLN","AUD"]
     
     @IBOutlet weak var stackTop: UIStackView!
@@ -26,16 +26,26 @@ public class FavoritosViewController: UIViewController, UICollectionViewDelegate
         super.viewDidLoad()
         colecaoFavoritos.delegate = self
         colecaoFavoritos.dataSource = self
+        self.configuraView(titulo: "Moeda Digital", y: 160, cor: .corTexto())
     }
     
     public override func viewWillAppear(_ animated: Bool) {
 //        setupUI()
     }
-    
-    public func setupUI(_ listaFavoritadas: [String]) {
+    func configuraView(titulo: String, y: Int, cor: UIColor) {
+        let tituloLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+        tituloLabel.text = String()
+        tituloLabel.textAlignment = .center
+        tituloLabel.backgroundColor = .corTexto()
+       stackTop.addArrangedSubview(tituloLabel)
+        
         let myView = ViewTop().loadNib()
         myView.backgroundColor = .corSecundaria()
         stackTop.addArrangedSubview(myView)
+    }
+    
+    public func setupUI(_ listaFavoritadas: [String]) {
+
         self.moedasFavoritadas = listaFavoritadas
         colecaoFavoritos.reloadData()
         
@@ -47,12 +57,15 @@ public class FavoritosViewController: UIViewController, UICollectionViewDelegate
 
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let celulaFavoritos = collectionView.dequeueReusableCell(withReuseIdentifier: "celulaFavoritos", for: indexPath) as! CollectionViewCell
-        celulaFavoritos.backgroundColor = UIColor.corSecundaria()
+        celulaFavoritos.backgroundColor = UIColor.black
         colecaoFavoritos.backgroundColor = UIColor.corSecundaria()
+        celulaFavoritos.clipsToBounds = true
+        celulaFavoritos.layer.cornerRadius = 8
+        celulaFavoritos.layer.masksToBounds = true
+        celulaFavoritos.contentMode = .scaleToFill
         InfoMoedaAPI().requestInfoMoedas(id: self.moedasFavoritadas[indexPath.row]) { (moeda) in
             celulaFavoritos.formataCelula(moeda[0])
         }
-//        viewDentro.backgroundColor = UIColor.corPrimaria()
 
 
         return celulaFavoritos

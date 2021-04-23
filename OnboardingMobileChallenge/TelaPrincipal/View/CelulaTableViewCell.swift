@@ -8,15 +8,6 @@
 import UIKit
 import ModuloCommons
 
-//public struct infoCelula {
-//
-//    public static var sigla = ""
-//    public var tipo = ""
-//    public var cotacao = ""
-//    public var img = UIImage()
-//    public var favoritado = ""
-//}
-
 class CelulaTableViewCell: UITableViewCell {
 
     @IBOutlet weak var labelMoeda: UILabel!

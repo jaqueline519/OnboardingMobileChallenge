@@ -15,13 +15,12 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
     @IBOutlet weak var stackFavoritos: UIStackView!
     var gerenciaResultado: NSFetchedResultsController<MoedaEntity>?
     var favoritos: FavoritosViewController?
-    var moedasFavoritadas = ["BTC","ETH","PLN","AUD"]
+    var moedasFavoritadas = ["BTC", "ETH", "PLN", "AUD"]
     var listaMoedasFavoritadas: [String] = []
     var contexto: NSManagedObjectContext {
     let appDelegate = UIApplication.shared.delegate as? AppDelegate
         return (appDelegate?.persistentContainer.viewContext)!
     }
-//    var gerenciadorDeResultados: NSFetchedResultsController<MoedaEntity>?
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,22 +60,6 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
         // return favoritosRecuperados // Essa função não possui retorno
     }
     
-//    func recuperaMoeda() {
-//        let buscaMoedaSalva: NSFetchRequest<MoedaEntity> = MoedaEntity.fetchRequest()
-//        let ordenaPorSigla = NSSortDescriptor(key: "sigla", ascending: true)
-//        buscaMoedaSalva.sortDescriptors = [ordenaPorSigla]
-//        gerenciaResultado = NSFetchedResultsController(fetchRequest: buscaMoedaSalva, managedObjectContext: contexto, sectionNameKeyPath: nil, cacheName: nil)
-//        do {
-//        try gerenciaResultado?.performFetch()
-//            print(Locale.self)
-//        } catch {
-//            print(error.localizedDescription)
-//        }
-//
-////       favoritos.self?.recebeMoedas(array: gerenciaResultado?.fetchRequest ?? [])
-//
-//    }
-    
         func showDetailsAction() {
             let viewC = FavoritosViewController.fromSB(self.moedasFavoritadas)
             self.present(viewC, animated: true, completion: nil)
@@ -90,4 +73,3 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
     }
 
 }
-
