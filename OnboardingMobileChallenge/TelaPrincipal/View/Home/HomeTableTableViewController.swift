@@ -24,11 +24,14 @@ class HomeTableTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         
     }
-    private func loadData() {
+    func loadData() {
         MoedasAPI().requestMoedas { (moedasRetornadas) in
             self.dadosListaMoedas = moedasRetornadas
             self.tableView.reloadData()
         }
+    }
+    public func reloadTable() {
+        self.tableView.reloadData()
     }
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -57,6 +60,7 @@ class HomeTableTableViewController: UITableViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(identifier: "DetalhesMoeda") as DetalhesViewController
         controller.sigla = moedaSelecionada.assetID
+        controller.modalPresentationStyle = .fullScreen // FullScreen, comment if don't want use.
         present(controller, animated: true, completion: nil)
     }
 }

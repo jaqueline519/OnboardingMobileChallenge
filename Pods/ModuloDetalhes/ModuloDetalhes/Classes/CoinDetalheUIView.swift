@@ -20,6 +20,7 @@ public class CoinDetalheUIView: UIView {
     //MARK: - Variáveis
     var favoritoDelegate: CoinDetalheDelegate?
     var actionFavorita: (() -> Void)?
+    var actionVoltar: (() -> Void)?
     var buttonFavorito: UIButton?
     public var idMoeda: String?
     public var seFavorito = false
@@ -90,4 +91,14 @@ public class CoinDetalheUIView: UIView {
             self.favoritoDelegate?.favoritar(id, self.seFavorito)
         }
     }
+    
+    @IBAction func bttnVoltar(_ sender: UIButton) {
+        if let actionReturn = self.actionVoltar {
+            actionReturn()
+        } else {
+            self.favoritoDelegate?.voltar()
+            print("-----Eu deveria fechar")
+        }
+    }
+    
 }

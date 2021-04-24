@@ -64,7 +64,7 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
     private func resgateFavoritos() -> [String] {
         var listaExtraida: [String] = []
         let favoritosBD = consultaBD()
-        print(favoritosBD.count)
+//        print(favoritosBD.count)
         for moeda in favoritosBD {
             guard let id = moeda.sigla else { return listaExtraida }
             listaExtraida.append(id)
@@ -89,14 +89,18 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
     }
 }
 extension DetalhesViewController: CoinDetalheDelegate {
+    func voltar() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     func favoritar(_ id: String, _ acao: Bool) {
         if !acao {
             addFavorito(id)
-            print("------ Adicionado! ------")
         } else {
             removeFavorito(id)
-            print("------ Bora deletar! ------")
         }
+        HomeTableTableViewController().reloadTable()
+        self.dismiss(animated: true, completion: nil)
     }
     
     
