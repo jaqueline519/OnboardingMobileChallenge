@@ -19,6 +19,10 @@ class HomeTableTableViewController: UITableViewController {
         self.tableView.backgroundColor = UIColor.corSecundaria()
         super.viewDidLoad()
         self.loadData()
+        print("atualizar table--")
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        
     }
     private func loadData() {
         MoedasAPI().requestMoedas { (moedasRetornadas) in

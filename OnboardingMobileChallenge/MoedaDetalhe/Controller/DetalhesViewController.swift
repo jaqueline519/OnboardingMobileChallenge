@@ -24,7 +24,7 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         tela.idMoeda = sigla
-        tela.seFavorito = verificaSeFavorito()
+        tela.seFavorito = verificaSeFavorito(self.sigla ?? "")
         self.tela.setupUI(self)
         stack.addArrangedSubview(tela)
     }
@@ -39,7 +39,7 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
         contexto.delete(localiza[0])
         atualizaBD()
     }
-    func consultaBD() -> [MoedaEntity] {
+    public func consultaBD() -> [MoedaEntity] {
         let listaFavorito: NSFetchRequest<MoedaEntity> = MoedaEntity.fetchRequest()
         let ordena = NSSortDescriptor(key: "sigla", ascending: true)
         listaFavorito.sortDescriptors = [ordena]
@@ -53,9 +53,9 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
         guard let favoritosRecuperados = gerenciadorDeResultados?.fetchedObjects else { return [MoedaEntity]() }
         return favoritosRecuperados
     }
-    private func verificaSeFavorito() -> Bool {
+    public func verificaSeFavorito(_ id: String) -> Bool {
         let favoritos = resgateFavoritos()
-        let existeEmFavoritos = favoritos.filter { $0 == self.sigla }
+        let existeEmFavoritos = favoritos.filter { $0 == id }
         if existeEmFavoritos.count > 0 {
             return true
         }

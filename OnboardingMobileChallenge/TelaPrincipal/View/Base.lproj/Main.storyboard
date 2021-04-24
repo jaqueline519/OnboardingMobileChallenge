@@ -89,22 +89,19 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1S4-Qb-oZo" userLabel="imgFavoritado">
-                                            <rect key="frame" x="187.5" y="6" width="0.0" height="30"/>
-                                        </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cotacaoMoeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxc-Jf-H6k">
                                             <rect key="frame" x="231" y="31" width="114" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="1S4-Qb-oZo" userLabel="imgFavoritado">
+                                            <rect key="frame" x="173" y="43.5" width="19" height="22"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="1S4-Qb-oZo" firstAttribute="top" secondItem="2N1-46-Pig" secondAttribute="topMargin" constant="-5" id="1Jv-3u-RU9"/>
-                                        <constraint firstItem="1S4-Qb-oZo" firstAttribute="leading" secondItem="JBV-HB-Ifs" secondAttribute="trailing" constant="13" id="33w-z5-wZr"/>
-                                        <constraint firstItem="JBV-HB-Ifs" firstAttribute="centerY" secondItem="1S4-Qb-oZo" secondAttribute="centerY" id="537-Do-blr"/>
                                         <constraint firstItem="If5-Zi-cYc" firstAttribute="top" secondItem="JBV-HB-Ifs" secondAttribute="bottom" constant="13" id="B2L-ce-a3P"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="1S4-Qb-oZo" secondAttribute="bottom" constant="35" id="BtZ-oJ-Pwj"/>
                                         <constraint firstItem="JBV-HB-Ifs" firstAttribute="leading" secondItem="TvP-Li-77D" secondAttribute="trailing" constant="8" symbolic="YES" id="EgC-L6-M5f"/>
                                         <constraint firstItem="TvP-Li-77D" firstAttribute="leading" secondItem="2N1-46-Pig" secondAttribute="leadingMargin" constant="5" id="HLa-7Y-ajx"/>
                                         <constraint firstItem="Uxc-Jf-H6k" firstAttribute="top" secondItem="2N1-46-Pig" secondAttribute="topMargin" constant="20" id="SYL-wh-Y86"/>
@@ -112,7 +109,6 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="TvP-Li-77D" secondAttribute="bottom" constant="2.5" id="YT8-g0-VT8"/>
                                         <constraint firstItem="Uxc-Jf-H6k" firstAttribute="centerY" secondItem="TvP-Li-77D" secondAttribute="centerY" id="ZB5-NK-xRm"/>
                                         <constraint firstAttribute="trailing" secondItem="Uxc-Jf-H6k" secondAttribute="trailing" constant="30" id="eDj-vp-TOg"/>
-                                        <constraint firstItem="1S4-Qb-oZo" firstAttribute="centerX" secondItem="2N1-46-Pig" secondAttribute="centerX" id="ibu-H3-3iI"/>
                                         <constraint firstItem="JBV-HB-Ifs" firstAttribute="top" secondItem="2N1-46-Pig" secondAttribute="topMargin" id="qLk-XL-dtR"/>
                                         <constraint firstItem="TvP-Li-77D" firstAttribute="top" secondItem="2N1-46-Pig" secondAttribute="topMargin" constant="2.5" id="sBG-Mb-eGa"/>
                                     </constraints>
@@ -324,6 +320,7 @@
     </scenes>
     <resources>
         <image name="dollarsign.square.fill" catalog="system" width="128" height="114"/>
+        <image name="pencil.circle" catalog="system" width="128" height="121"/>
         <image name="star" catalog="system" width="128" height="116"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

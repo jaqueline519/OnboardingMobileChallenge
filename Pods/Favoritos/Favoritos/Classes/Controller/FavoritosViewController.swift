@@ -93,5 +93,14 @@ extension UIViewController {
         }
         return T()
     }
+//    public class func fromNib() -> Self {
+//        return fromNib(viewType: self)
+//    }
+//    public class func fromNib<T: UIView>(viewType: T.Type) -> T {
+//        if let nib = bundleUI.loadNibNamed(String(describing: viewType), owner: nil, options: nil)?.first as? T {
+//            return nib
+//        }
+//        return T()
+//    }
 }
 

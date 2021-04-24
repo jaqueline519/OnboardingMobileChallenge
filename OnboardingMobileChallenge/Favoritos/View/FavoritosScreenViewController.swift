@@ -60,12 +60,13 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
         // return favoritosRecuperados // Essa função não possui retorno
     }
     
-        func showDetailsAction() {
-            let viewC = FavoritosViewController.fromSB(self.moedasFavoritadas)
-            self.present(viewC, animated: true, completion: nil)
-            favoritos?.setupUI(self.listaMoedasFavoritadas)
-            
-        }
+    func showDetailsAction() {
+        let viewC = FavoritosViewController.fromSB(self.moedasFavoritadas)
+        self.present(viewC, animated: true, completion: nil)
+//        self.show(viewC, sender: self)
+        favoritos?.setupUI(self.listaMoedasFavoritadas)
+        
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

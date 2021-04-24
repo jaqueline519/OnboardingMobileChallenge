@@ -23,7 +23,12 @@ class HomeUITableViewCell: UITableViewCell {
         self.imgMoeda.af.setImage(withURL: nomeImagem) // = DataImage().requestImage(nomeImagem)
         self.lbNomeMoeda.text = dados.name
         self.lbTipoMoeda.text = dados.assetID
+        // let favoritos = DetalhesViewController().consultaBD()
+        let contem: Bool = DetalhesViewController().verificaSeFavorito(dados.assetID)
         self.imgFavorito.image = UIImage()
+        if contem {
+            self.imgFavorito.image = UIImage(named: "star_coin.png")
+        }
         let valor = dados.priceUsd ?? 0.0
         self.lbCotacaoMoeda.text = valor.formatDolar
         self.configCorCell()
