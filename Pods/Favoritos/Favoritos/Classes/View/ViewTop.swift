@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 public protocol FavoritosDelegate: class {
     func viewFavoritosAction()
 }
@@ -31,7 +30,6 @@ public class ViewTop: UIView {
         let viewTopo = ViewTop().loadNib()
         viewTopo.backgroundColor = UIColor.corPrimaria()
     }
-
 }
 
 extension UIView {

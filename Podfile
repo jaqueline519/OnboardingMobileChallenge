@@ -10,6 +10,9 @@ target 'OnboardingMobileChallenge' do
   target 'OnboardingMobileChallengeTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Nimble'
+    pod 'Quick'
+    pod 'Nimble-Snapshots'
   end
 
   target 'OnboardingMobileChallengeUITests' do

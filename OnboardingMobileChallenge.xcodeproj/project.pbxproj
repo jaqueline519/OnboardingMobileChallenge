@@ -11,6 +11,7 @@
 		48C46BCD811CB0969B3EA882 /* Pods_OnboardingMobileChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9302DBD04CF4C7130383CEA1 /* Pods_OnboardingMobileChallengeTests.framework */; };
 		8343351CBE71515779A21E36 /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C85950B4C690DDB0A08F5 /* Pods_OnboardingMobileChallenge.framework */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
+		89A473472637277C009253A9 /* TestesNegocioXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */; };
 		89CD23A12633BF9200F6D3A0 /* star_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD23A02633BF9200F6D3A0 /* star_coin.png */; };
 		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
 		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
@@ -53,6 +54,7 @@
 		37C76B4965FA5948AC438A13 /* Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests/Pods-OnboardingMobileChallenge-OnboardingMobileChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
 		891EF7BD8D4E7A9DF227DE4E /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestesNegocioXCTestCase.swift; sourceTree = "<group>"; };
 		89CD23A02633BF9200F6D3A0 /* star_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_coin.png; sourceTree = "<group>"; };
 		89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
 		89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITableViewCell.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 		EAA49C322625E12900B3E735 /* OnboardingMobileChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */,
 				EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */,
 				EAA49C352625E12900B3E735 /* Info.plist */,
 			);
@@ -341,6 +344,7 @@
 				EAA49C2B2625E12900B3E735 /* Sources */,
 				EAA49C2C2625E12900B3E735 /* Frameworks */,
 				EAA49C2D2625E12900B3E735 /* Resources */,
+				4D313A2C0895C1AA0DDDF786 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -443,6 +447,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4D313A2C0895C1AA0DDDF786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5946429C2CA0B3D95FE2F628 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -588,6 +609,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */,
+				89A473472637277C009253A9 /* TestesNegocioXCTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

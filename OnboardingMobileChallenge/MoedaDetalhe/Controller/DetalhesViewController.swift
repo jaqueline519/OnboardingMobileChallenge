@@ -64,7 +64,6 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
     private func resgateFavoritos() -> [String] {
         var listaExtraida: [String] = []
         let favoritosBD = consultaBD()
-//        print(favoritosBD.count)
         for moeda in favoritosBD {
             guard let id = moeda.sigla else { return listaExtraida }
             listaExtraida.append(id)

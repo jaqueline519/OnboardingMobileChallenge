@@ -27,6 +27,11 @@ PODS:
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
     - ModuloCommons
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
   - ModuloCommons (0.1.0):
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
@@ -35,6 +40,13 @@ PODS:
     - Alamofire (~> 5.2)
     - AlamofireImage (~> 4.1)
     - ModuloCommons
+  - Nimble (9.0.0)
+  - Nimble-Snapshots (9.1.0):
+    - Nimble-Snapshots/Core (= 9.1.0)
+  - Nimble-Snapshots/Core (9.1.0):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble
+  - Quick (3.1.2)
   - SwiftLint (0.43.1)
 
 DEPENDENCIES:
@@ -43,6 +55,9 @@ DEPENDENCIES:
   - Favoritos (from `https://github.com/jaqueline519/Favoritos.git`)
   - ModuloCommons (from `https://github.com/jonatttan/ModuloCommons.git`)
   - ModuloDetalhes (from `https://github.com/jonatttan/ModuloDetalhes.git`)
+  - Nimble
+  - Nimble-Snapshots
+  - Quick
   - SwiftLint
 
 SPEC REPOS:
@@ -50,6 +65,10 @@ SPEC REPOS:
     - AFNetworking
     - Alamofire
     - AlamofireImage
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -62,13 +81,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Favoritos:
-    :commit: 37db85a78c2004e88609437fbfef30c35f54a07b
+    :commit: 7aa5e5a61a555381f0e0277d5d20724950871866
     :git: https://github.com/jaqueline519/Favoritos.git
   ModuloCommons:
     :commit: cdbaf95ac3007314ccb5cad2437c21491ac7d4e7
     :git: https://github.com/jonatttan/ModuloCommons.git
   ModuloDetalhes:
-    :commit: a209391daea74e360f768bc3ae7544e800ba1e58
+    :commit: df13de5b775480abb760dba2a9ca543ec218aeef
     :git: https://github.com/jonatttan/ModuloDetalhes.git
 
 SPEC CHECKSUMS:
@@ -76,10 +95,14 @@ SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Favoritos: 226da2f13b5171e46b15c34f0d522b45a6469e29
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
   ModuloCommons: fe33464dc430261bc595a5666b18c8d6e5b4d2bd
   ModuloDetalhes: a62325520120e9f03e682b8dc27b6cb4b334d29b
+  Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
+  Nimble-Snapshots: 6605431525245f967ca9d558bb12a49da3d040e3
+  Quick: 60f0ea3b8e0cfc0df3259a5c06a238ad8b3c46e0
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
 
-PODFILE CHECKSUM: 2d73e7dee88e1493b4bc987cca9de95a826ed915
+PODFILE CHECKSUM: 3ccba8d9517325ce050482ad69d09f5f4b96f401
 
 COCOAPODS: 1.10.1
