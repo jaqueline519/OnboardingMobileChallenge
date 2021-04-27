@@ -10,6 +10,13 @@ import XCTest
 @testable import OnboardingMobileChallenge
 
 class TestesNegocioXCTestCase: XCTestCase {
+    var listaDeFavoritos: [MoedaEntity]! = nil
+    var detalhes: DetalhesViewController!
+    
+    override func setUpWithError() throws {
+        detalhes = DetalhesViewController()
+        listaDeFavoritos = detalhes.consultaBD()
+    }
 
     func testDeveVerificarSeExisteDadosAdvindosDaAPI() {
         // Teste falho, a requisição não chega a ser efetuada
@@ -23,11 +30,10 @@ class TestesNegocioXCTestCase: XCTestCase {
 //        wait(for: [espera], timeout: 10.0)
     }
     func testeDeveVerificarSeHaFavoritosNoBDCoreData() {
-        let listaFavoritos = DetalhesViewController().consultaBD()
         var verificaSeHaDados = false
-        if listaFavoritos.count > 0 {
+        if listaDeFavoritos.count > 0 {
             verificaSeHaDados = !verificaSeHaDados
         }
-        XCTAssertTrue(verificaSeHaDados)
+        XCTAssertTrue(verificaSeHaDados, "Tem de existir favorito, então passará")
     }
 }

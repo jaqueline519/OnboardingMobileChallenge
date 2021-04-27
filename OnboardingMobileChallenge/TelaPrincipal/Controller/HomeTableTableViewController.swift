@@ -30,9 +30,6 @@ class HomeTableTableViewController: UITableViewController {
             self.tableView.reloadData()
         }
     }
-    public func reloadTable() {
-        self.tableView.reloadData()
-    }
     // MARK: - Table view data source
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1

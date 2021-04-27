@@ -26,17 +26,6 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
         super.viewDidLoad()
         self.recuperaFavoritos()
         showDetailsAction()
-       // self.recuperaMoeda() // Já está dentro do módulo a requisição
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-//        favoritos?.moedasFavoritadas = listaMoedasFavoritadas
-//        if let tela = favoritos {
-//            tela.setupUI(self.listaMoedasFavoritadas)
-//        }
-//        favoritos?.setupUI(listaMoedasFavoritadas)
-        
     }
     
     
@@ -67,10 +56,4 @@ class FavoritosScreenViewController: UIViewController, NSFetchedResultsControlle
         favoritos?.setupUI(self.listaMoedasFavoritadas)
         
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-     
-    }
-
 }

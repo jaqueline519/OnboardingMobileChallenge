@@ -12,6 +12,7 @@
 		8343351CBE71515779A21E36 /* Pods_OnboardingMobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4C85950B4C690DDB0A08F5 /* Pods_OnboardingMobileChallenge.framework */; };
 		890E02AB2626229B00BD54EE /* FileExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E02AA2626229B00BD54EE /* FileExample.swift */; };
 		89A473472637277C009253A9 /* TestesNegocioXCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */; };
+		89C33B682638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C33B672638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift */; };
 		89CD23A12633BF9200F6D3A0 /* star_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD23A02633BF9200F6D3A0 /* star_coin.png */; };
 		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
 		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
@@ -55,6 +56,7 @@
 		890E02AA2626229B00BD54EE /* FileExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileExample.swift; sourceTree = "<group>"; };
 		891EF7BD8D4E7A9DF227DE4E /* Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingMobileChallenge_OnboardingMobileChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestesNegocioXCTestCase.swift; sourceTree = "<group>"; };
+		89C33B672638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewControllerTests.swift; sourceTree = "<group>"; };
 		89CD23A02633BF9200F6D3A0 /* star_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_coin.png; sourceTree = "<group>"; };
 		89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
 		89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITableViewCell.swift; sourceTree = "<group>"; };
@@ -159,15 +161,6 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		89D92B3B262BEDB4009C579E /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */,
-				89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		EA178201262D081100FCF636 /* Favoritos */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +223,7 @@
 				89A473462637277C009253A9 /* TestesNegocioXCTestCase.swift */,
 				EAA49C332625E12900B3E735 /* OnboardingMobileChallengeTests.swift */,
 				EAA49C352625E12900B3E735 /* Info.plist */,
+				89C33B672638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift */,
 			);
 			path = OnboardingMobileChallengeTests;
 			sourceTree = "<group>";
@@ -265,8 +259,8 @@
 		EAEFFE4D2629E42F00926C16 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				89D92B3B262BEDB4009C579E /* Home */,
 				EAA49C252625E12900B3E735 /* Assets.xcassets */,
+				89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */,
 				EAEFFE572629E9C900926C16 /* CelulaTableViewCell.swift */,
 				EAA49C222625E12600B3E735 /* Main.storyboard */,
 				EAA49C272625E12900B3E735 /* LaunchScreen.storyboard */,
@@ -301,6 +295,7 @@
 		FCF5A2FB2626076400529973 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */,
 				EAA49C202625E12600B3E735 /* TelaPrincipalViewController.swift */,
 			);
 			path = Controller;
@@ -608,6 +603,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C33B682638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift in Sources */,
 				EAA49C342625E12900B3E735 /* OnboardingMobileChallengeTests.swift in Sources */,
 				89A473472637277C009253A9 /* TestesNegocioXCTestCase.swift in Sources */,
 			);

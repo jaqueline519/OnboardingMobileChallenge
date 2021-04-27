@@ -15,15 +15,14 @@ class HomeUITableViewCell: UITableViewCell {
     @IBOutlet weak var imgFavorito: UIImageView!
     @IBOutlet weak var lbCotacaoMoeda: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+//        // Initialization code
+//    }
     func configCell(_ dados: ListaMoeda, _ nomeImagem: URL) {
-        self.imgMoeda.af.setImage(withURL: nomeImagem) // = DataImage().requestImage(nomeImagem)
+        self.imgMoeda.af.setImage(withURL: nomeImagem)
         self.lbNomeMoeda.text = dados.name
         self.lbTipoMoeda.text = dados.assetID
-        // let favoritos = DetalhesViewController().consultaBD()
         let contem: Bool = DetalhesViewController().verificaSeFavorito(dados.assetID)
         self.imgFavorito.image = UIImage()
         if contem {
@@ -41,8 +40,14 @@ class HomeUITableViewCell: UITableViewCell {
     }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
         // Configure the view for the selected state
     }
 
 }
+#if DEBUG
+extension HomeUITableViewCell {
+    public func testConfigCorCell() -> Any {
+        return self.configCorCell()
+    }
+}
+#endif

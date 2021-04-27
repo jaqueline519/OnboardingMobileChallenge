@@ -61,7 +61,7 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
         }
         return false
     }
-    private func resgateFavoritos() -> [String] {
+    func resgateFavoritos() -> [String] {
         var listaExtraida: [String] = []
         let favoritosBD = consultaBD()
         for moeda in favoritosBD {
@@ -70,7 +70,7 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
         }
         return listaExtraida
     }
-    private func atualizaBD() {
+    func atualizaBD() {
         do {
             try contexto.save()
             print("Sucesso na operação")
@@ -98,7 +98,6 @@ extension DetalhesViewController: CoinDetalheDelegate {
         } else {
             removeFavorito(id)
         }
-        HomeTableTableViewController().reloadTable()
         self.dismiss(animated: true, completion: nil)
     }
     
