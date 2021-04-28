@@ -15,6 +15,8 @@
 		89C33B682638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C33B672638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift */; };
 		89C33B6D2638D77600C2F8B3 /* FavoritosScreenViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C33B6C2638D77600C2F8B3 /* FavoritosScreenViewControllerTests.swift */; };
 		89C33B722638E6BF00C2F8B3 /* DetalhesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C33B712638E6BF00C2F8B3 /* DetalhesViewControllerTests.swift */; };
+		89C33B772638EEED00C2F8B3 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C33B762638EEED00C2F8B3 /* HomeTests.swift */; };
+		89C33B9D2638FB8700C2F8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA49C222625E12600B3E735 /* Main.storyboard */; };
 		89CD23A12633BF9200F6D3A0 /* star_coin.png in Resources */ = {isa = PBXBuildFile; fileRef = 89CD23A02633BF9200F6D3A0 /* star_coin.png */; };
 		89D92B3D262BEE04009C579E /* HomeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */; };
 		89D92B42262BEEE5009C579E /* HomeUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */; };
@@ -61,6 +63,7 @@
 		89C33B672638D01400C2F8B3 /* HomeTableTableViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewControllerTests.swift; sourceTree = "<group>"; };
 		89C33B6C2638D77600C2F8B3 /* FavoritosScreenViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosScreenViewControllerTests.swift; sourceTree = "<group>"; };
 		89C33B712638E6BF00C2F8B3 /* DetalhesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewControllerTests.swift; sourceTree = "<group>"; };
+		89C33B762638EEED00C2F8B3 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		89CD23A02633BF9200F6D3A0 /* star_coin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_coin.png; sourceTree = "<group>"; };
 		89D92B3C262BEE04009C579E /* HomeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableTableViewController.swift; sourceTree = "<group>"; };
 		89D92B41262BEEE5009C579E /* HomeUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUITableViewCell.swift; sourceTree = "<group>"; };
@@ -239,6 +242,7 @@
 			children = (
 				EAA49C3E2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift */,
 				EAA49C402625E12900B3E735 /* Info.plist */,
+				89C33B762638EEED00C2F8B3 /* HomeTests.swift */,
 			);
 			path = OnboardingMobileChallengeUITests;
 			sourceTree = "<group>";
@@ -345,7 +349,6 @@
 				EAA49C2B2625E12900B3E735 /* Sources */,
 				EAA49C2C2625E12900B3E735 /* Frameworks */,
 				EAA49C2D2625E12900B3E735 /* Resources */,
-				4D313A2C0895C1AA0DDDF786 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -442,29 +445,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C33B9D2638FB8700C2F8B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4D313A2C0895C1AA0DDDF786 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OnboardingMobileChallengeTests/Pods-OnboardingMobileChallengeTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5946429C2CA0B3D95FE2F628 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -621,6 +608,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C33B772638EEED00C2F8B3 /* HomeTests.swift in Sources */,
 				EAA49C3F2625E12900B3E735 /* OnboardingMobileChallengeUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

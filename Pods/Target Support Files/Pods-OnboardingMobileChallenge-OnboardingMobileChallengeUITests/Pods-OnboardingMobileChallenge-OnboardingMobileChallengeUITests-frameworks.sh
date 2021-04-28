@@ -181,6 +181,10 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Favoritos/Favoritos.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloCommons/ModuloCommons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloDetalhes/ModuloDetalhes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Quick/Quick.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
@@ -189,6 +193,10 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Favoritos/Favoritos.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloCommons/ModuloCommons.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ModuloDetalhes/ModuloDetalhes.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Quick/Quick.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
