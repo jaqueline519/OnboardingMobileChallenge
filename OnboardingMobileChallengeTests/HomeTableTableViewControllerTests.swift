@@ -25,10 +25,10 @@ class HomeTableTableViewControllerTests: XCTestCase {
             homeController.dadosListaMoedas.append(dado)
         }
     }
-    
     func testSeNumeroDeLinhasDaTabelaIgualACinco() {
         XCTAssertEqual(homeController.tableView.numberOfRows(inSection: 0), 5, "Numero de linhas da tabela sendo igual ao valor atribuido em varificador, cinco")
     }
-    
-
+    func testNumberOfSectionsDaTableViewDeveSer1() {
+        XCTAssertEqual(homeController.tableView.numberOfSections, 1, "Numero de sessoes deve ser iguala 1")
+    }    
 }

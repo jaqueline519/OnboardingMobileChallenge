@@ -80,10 +80,10 @@ class DetalhesViewController: UIViewController, NSFetchedResultsControllerDelega
     }
     // Não utilizada no momento
     func removeTodosOsFavoritos() {
-        let moedas = consultaBD()
-        for moeda in moedas {
-            contexto.delete(moeda)
-        }
+//        let moedas = consultaBD()
+//        for moeda in moedas {
+//            contexto.delete(moeda)
+//        }
         atualizaBD()
     }
 }
