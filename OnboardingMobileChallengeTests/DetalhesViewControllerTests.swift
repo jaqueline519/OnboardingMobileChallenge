@@ -17,10 +17,10 @@ class DetalhesViewControllerTests: XCTestCase {
     func testCarregamentoDeFuncoesDetalhesViewController() {
         _ = detalhesVC.consultaBD()
         detalhesVC.atualizaBD()
+        detalhesVC.addFavorito("ETH")
         _ = detalhesVC.verificaSeFavorito("ETH")
         detalhesVC.removeFavorito("ETH")
-        detalhesVC.removeTodosOsFavoritos()
         _ = detalhesVC.resgateFavoritos()
-        detalhesVC.addFavorito("ETH")
+        detalhesVC.removeTodosOsFavoritos()
     }
 }
